@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-10-03T06:36:29.839682+00:00",
+  "iterations": 1000,
+  "seed": 33,
+  "ed25519_signing_included": true,
+  "merkle_vectors_verified": 9,
+  "baseline": {
+    "n": 1000,
+    "median_ms": 0.291208,
+    "mean_ms": 0.29659965,
+    "std_ms": 0.028287863515680745,
+    "p95_ms": 0.34619104999999994,
+    "max_ms": 0.575
+  },
+  "ligtaslink": {
+    "n": 1000,
+    "median_ms": 0.6177915,
+    "mean_ms": 0.616816124,
+    "std_ms": 0.1586554689873129,
+    "p95_ms": 0.85129375,
+    "max_ms": 1.407083
+  },
+  "overhead_median_ms": 0.3265835,
+  "mann_whitney": {
+    "U": 995886.0,
+    "p_two_sided": 0.0,
+    "p_one_sided_greater": 0.0,
+    "rank_biserial": 0.9917720000000001,
+    "alpha": 0.05
+  },
+  "threshold_ms": 100.0,
+  "median_below_threshold": true,
+  "p95_below_threshold": true,
+  "tamper": {
+    "batch_size": 1000,
+    "control_untampered_match": true,
+    "trials": 1000,
+    "detected": 1000,
+    "tdr_percent": 100.0,
+    "by_kind": {
+      "delete": {
+        "detected": 193,
+        "trials": 193
+      },
+      "inject": {
+        "detected": 205,
+        "trials": 205
+      },
+      "modify:household_id": {
+        "detected": 131,
+        "trials": 131
+      },
+      "modify:items_received": {
+        "detected": 163,
+        "trials": 163
+      },
+      "modify:timestamp": {
+        "detected": 161,
+        "trials": 161
+      },
+      "modify:worker_id": {
+        "detected": 147,
+        "trials": 147
+      }
+    },
+    "example": {
+      "tamper": "modify:household_id",
+      "transaction_id": "e99df386-eb83-4289-8ee7-8c049abe1f8a",
+      "R_offline": "0x2278c4655eb161e8d92c21d529a4f4f68e31433f36606623f625c193d30f7289",
+      "R_cloud": "0xf374278d308b3fe4f462fdb6f6dca7194833b822f9a6be1a5a1e03778a0acf46"
+    }
+  }
+}

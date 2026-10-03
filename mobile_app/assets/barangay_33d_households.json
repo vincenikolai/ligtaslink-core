@@ -1,0 +1,6002 @@
+[
+  {
+    "household_id": "b33d-hh-001",
+    "family_head_name": "Leonardo E. Torres",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-001"
+  },
+  {
+    "household_id": "b33d-hh-002",
+    "family_head_name": "Marlon M. Cañete",
+    "address_purok": 2,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-002"
+  },
+  {
+    "household_id": "b33d-hh-003",
+    "family_head_name": "Marlon A. Villanueva",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-003"
+  },
+  {
+    "household_id": "b33d-hh-004",
+    "family_head_name": "Lorna O. Aquino",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-004"
+  },
+  {
+    "household_id": "b33d-hh-005",
+    "family_head_name": "John Paul V. Pascual",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-005"
+  },
+  {
+    "household_id": "b33d-hh-006",
+    "family_head_name": "Analyn E. Macaraeg",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-006"
+  },
+  {
+    "household_id": "b33d-hh-007",
+    "family_head_name": "Analyn E. Ramos",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-007"
+  },
+  {
+    "household_id": "b33d-hh-008",
+    "family_head_name": "Mary Grace R. Sumagaysay",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-008"
+  },
+  {
+    "household_id": "b33d-hh-009",
+    "family_head_name": "Romeo R. Saavedra",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P6-009"
+  },
+  {
+    "household_id": "b33d-hh-010",
+    "family_head_name": "Reynaldo P. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-010"
+  },
+  {
+    "household_id": "b33d-hh-011",
+    "family_head_name": "Angelica B. Bautista",
+    "address_purok": 5,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-011"
+  },
+  {
+    "household_id": "b33d-hh-012",
+    "family_head_name": "Arnel E. Fernandez",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-012"
+  },
+  {
+    "household_id": "b33d-hh-013",
+    "family_head_name": "Imelda T. Basilio",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-013"
+  },
+  {
+    "household_id": "b33d-hh-014",
+    "family_head_name": "Marlon G. Tumampos",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-014"
+  },
+  {
+    "household_id": "b33d-hh-015",
+    "family_head_name": "Angelica A. Domingo",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-015"
+  },
+  {
+    "household_id": "b33d-hh-016",
+    "family_head_name": "Teodoro T. Tumampos",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-016"
+  },
+  {
+    "household_id": "b33d-hh-017",
+    "family_head_name": "Jose C. Ramos",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-017"
+  },
+  {
+    "household_id": "b33d-hh-018",
+    "family_head_name": "Teresita V. Salazar",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-018"
+  },
+  {
+    "household_id": "b33d-hh-019",
+    "family_head_name": "Ernesto F. Torres",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-019"
+  },
+  {
+    "household_id": "b33d-hh-020",
+    "family_head_name": "Gemma G. Garcia",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-020"
+  },
+  {
+    "household_id": "b33d-hh-021",
+    "family_head_name": "Angelica V. Magbanua",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-021"
+  },
+  {
+    "household_id": "b33d-hh-022",
+    "family_head_name": "Lorna C. Tolentino",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-022"
+  },
+  {
+    "household_id": "b33d-hh-023",
+    "family_head_name": "Remedios F. Flores",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P1-023"
+  },
+  {
+    "household_id": "b33d-hh-024",
+    "family_head_name": "Lorna I. Villanueva",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-024"
+  },
+  {
+    "household_id": "b33d-hh-025",
+    "family_head_name": "Lourdes D. Saavedra",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-025"
+  },
+  {
+    "household_id": "b33d-hh-026",
+    "family_head_name": "Ernesto I. Saavedra",
+    "address_purok": 4,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-026"
+  },
+  {
+    "household_id": "b33d-hh-027",
+    "family_head_name": "Jocelyn B. Cagas",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-027"
+  },
+  {
+    "household_id": "b33d-hh-028",
+    "family_head_name": "Eduardo D. Ocampo",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P1-028"
+  },
+  {
+    "household_id": "b33d-hh-029",
+    "family_head_name": "Ernesto V. Dela Cruz",
+    "address_purok": 2,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-029"
+  },
+  {
+    "household_id": "b33d-hh-030",
+    "family_head_name": "Kristine F. Abellana",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-030"
+  },
+  {
+    "household_id": "b33d-hh-031",
+    "family_head_name": "Jose N. Tumampos",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-031"
+  },
+  {
+    "household_id": "b33d-hh-032",
+    "family_head_name": "Antonio L. Dimaculangan",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-032"
+  },
+  {
+    "household_id": "b33d-hh-033",
+    "family_head_name": "Maricel O. Cañete",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-033"
+  },
+  {
+    "household_id": "b33d-hh-034",
+    "family_head_name": "Jennifer P. Macaraeg",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-034"
+  },
+  {
+    "household_id": "b33d-hh-035",
+    "family_head_name": "Evangeline D. Navarro",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P3-035"
+  },
+  {
+    "household_id": "b33d-hh-036",
+    "family_head_name": "Jonathan I. Sarmiento",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-036"
+  },
+  {
+    "household_id": "b33d-hh-037",
+    "family_head_name": "Ana E. Aquino",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-037"
+  },
+  {
+    "household_id": "b33d-hh-038",
+    "family_head_name": "Lorna C. Dela Cruz",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-038"
+  },
+  {
+    "household_id": "b33d-hh-039",
+    "family_head_name": "Evangeline G. Lumapas",
+    "address_purok": 2,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-039"
+  },
+  {
+    "household_id": "b33d-hh-040",
+    "family_head_name": "Rowena L. Flores",
+    "address_purok": 5,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-040"
+  },
+  {
+    "household_id": "b33d-hh-041",
+    "family_head_name": "Juan O. Salazar",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-041"
+  },
+  {
+    "household_id": "b33d-hh-042",
+    "family_head_name": "Antonio I. Flores",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-042"
+  },
+  {
+    "household_id": "b33d-hh-043",
+    "family_head_name": "Crisanto G. Navarro",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-043"
+  },
+  {
+    "household_id": "b33d-hh-044",
+    "family_head_name": "Mary Grace V. Aquino",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-044"
+  },
+  {
+    "household_id": "b33d-hh-045",
+    "family_head_name": "Maricel T. Tolentino",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-045"
+  },
+  {
+    "household_id": "b33d-hh-046",
+    "family_head_name": "Christian L. Torres",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-046"
+  },
+  {
+    "household_id": "b33d-hh-047",
+    "family_head_name": "Cristina L. Sarmiento",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-047"
+  },
+  {
+    "household_id": "b33d-hh-048",
+    "family_head_name": "Jerome S. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-048"
+  },
+  {
+    "household_id": "b33d-hh-049",
+    "family_head_name": "Erlinda H. Lacson",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-049"
+  },
+  {
+    "household_id": "b33d-hh-050",
+    "family_head_name": "Remedios R. Macaraeg",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-050"
+  },
+  {
+    "household_id": "b33d-hh-051",
+    "family_head_name": "Leticia C. Sumagaysay",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-051"
+  },
+  {
+    "household_id": "b33d-hh-052",
+    "family_head_name": "Marites V. Alvarez",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-052"
+  },
+  {
+    "household_id": "b33d-hh-053",
+    "family_head_name": "John Paul I. Domingo",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-053"
+  },
+  {
+    "household_id": "b33d-hh-054",
+    "family_head_name": "Reynaldo E. Macaraeg",
+    "address_purok": 2,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-054"
+  },
+  {
+    "household_id": "b33d-hh-055",
+    "family_head_name": "Romeo H. Flores",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-055"
+  },
+  {
+    "household_id": "b33d-hh-056",
+    "family_head_name": "Marlon B. Sumagaysay",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-056"
+  },
+  {
+    "household_id": "b33d-hh-057",
+    "family_head_name": "Rolando N. Domingo",
+    "address_purok": 2,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-057"
+  },
+  {
+    "household_id": "b33d-hh-058",
+    "family_head_name": "Ramon R. Reyes",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-058"
+  },
+  {
+    "household_id": "b33d-hh-059",
+    "family_head_name": "Jennifer H. Bacus",
+    "address_purok": 1,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-059"
+  },
+  {
+    "household_id": "b33d-hh-060",
+    "family_head_name": "Christian L. Torres",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-060"
+  },
+  {
+    "household_id": "b33d-hh-061",
+    "family_head_name": "Divina A. Sumagaysay",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-061"
+  },
+  {
+    "household_id": "b33d-hh-062",
+    "family_head_name": "Jose R. Tolentino",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-062"
+  },
+  {
+    "household_id": "b33d-hh-063",
+    "family_head_name": "Maria P. Lacson",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-063"
+  },
+  {
+    "household_id": "b33d-hh-064",
+    "family_head_name": "Arnel V. Pascual",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-064"
+  },
+  {
+    "household_id": "b33d-hh-065",
+    "family_head_name": "Erlinda B. Aquino",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-065"
+  },
+  {
+    "household_id": "b33d-hh-066",
+    "family_head_name": "Rogelio B. Bautista",
+    "address_purok": 2,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P2-066"
+  },
+  {
+    "household_id": "b33d-hh-067",
+    "family_head_name": "Romeo L. Flores",
+    "address_purok": 5,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-067"
+  },
+  {
+    "household_id": "b33d-hh-068",
+    "family_head_name": "Josefina C. Bautista",
+    "address_purok": 6,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-068"
+  },
+  {
+    "household_id": "b33d-hh-069",
+    "family_head_name": "Mary Grace C. Yap",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-069"
+  },
+  {
+    "household_id": "b33d-hh-070",
+    "family_head_name": "Pedro A. Cañete",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-070"
+  },
+  {
+    "household_id": "b33d-hh-071",
+    "family_head_name": "Teodoro T. Yap",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-071"
+  },
+  {
+    "household_id": "b33d-hh-072",
+    "family_head_name": "Maria D. Saavedra",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-072"
+  },
+  {
+    "household_id": "b33d-hh-073",
+    "family_head_name": "Luzviminda J. Torres",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-073"
+  },
+  {
+    "household_id": "b33d-hh-074",
+    "family_head_name": "Analyn J. Reyes",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-074"
+  },
+  {
+    "household_id": "b33d-hh-075",
+    "family_head_name": "Rolando I. Abellana",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-075"
+  },
+  {
+    "household_id": "b33d-hh-076",
+    "family_head_name": "Teodoro F. Yap",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-076"
+  },
+  {
+    "household_id": "b33d-hh-077",
+    "family_head_name": "Noel L. Cabrera",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-077"
+  },
+  {
+    "household_id": "b33d-hh-078",
+    "family_head_name": "Nestor N. Bautista",
+    "address_purok": 2,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-078"
+  },
+  {
+    "household_id": "b33d-hh-079",
+    "family_head_name": "Erlinda F. Magbanua",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-079"
+  },
+  {
+    "household_id": "b33d-hh-080",
+    "family_head_name": "Leonardo G. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-080"
+  },
+  {
+    "household_id": "b33d-hh-081",
+    "family_head_name": "Remedios T. Reyes",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-081"
+  },
+  {
+    "household_id": "b33d-hh-082",
+    "family_head_name": "Mary Grace C. Dimaculangan",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P1-082"
+  },
+  {
+    "household_id": "b33d-hh-083",
+    "family_head_name": "Ricardo F. Fernandez",
+    "address_purok": 1,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-083"
+  },
+  {
+    "household_id": "b33d-hh-084",
+    "family_head_name": "Rosario O. Pascual",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-084"
+  },
+  {
+    "household_id": "b33d-hh-085",
+    "family_head_name": "Elena R. Navarro",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-085"
+  },
+  {
+    "household_id": "b33d-hh-086",
+    "family_head_name": "Imelda E. Aquino",
+    "address_purok": 4,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-086"
+  },
+  {
+    "household_id": "b33d-hh-087",
+    "family_head_name": "Gemma O. Saavedra",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-087"
+  },
+  {
+    "household_id": "b33d-hh-088",
+    "family_head_name": "Arnel D. Tolentino",
+    "address_purok": 5,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-088"
+  },
+  {
+    "household_id": "b33d-hh-089",
+    "family_head_name": "Ramon S. Garcia",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-089"
+  },
+  {
+    "household_id": "b33d-hh-090",
+    "family_head_name": "Jonathan C. Fernandez",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-090"
+  },
+  {
+    "household_id": "b33d-hh-091",
+    "family_head_name": "Marlon I. Aquino",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-091"
+  },
+  {
+    "household_id": "b33d-hh-092",
+    "family_head_name": "Jocelyn H. Macaraeg",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-092"
+  },
+  {
+    "household_id": "b33d-hh-093",
+    "family_head_name": "Efren A. Yap",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-093"
+  },
+  {
+    "household_id": "b33d-hh-094",
+    "family_head_name": "Ricardo I. Villanueva",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-094"
+  },
+  {
+    "household_id": "b33d-hh-095",
+    "family_head_name": "Alfredo R. Reyes",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-095"
+  },
+  {
+    "household_id": "b33d-hh-096",
+    "family_head_name": "John Paul H. Cañete",
+    "address_purok": 2,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-096"
+  },
+  {
+    "household_id": "b33d-hh-097",
+    "family_head_name": "Teodoro N. Lopez",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-097"
+  },
+  {
+    "household_id": "b33d-hh-098",
+    "family_head_name": "Mark Anthony D. Cabrera",
+    "address_purok": 5,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-098"
+  },
+  {
+    "household_id": "b33d-hh-099",
+    "family_head_name": "Marites H. Lacson",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-099"
+  },
+  {
+    "household_id": "b33d-hh-100",
+    "family_head_name": "Joel T. Manalo",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-100"
+  },
+  {
+    "household_id": "b33d-hh-101",
+    "family_head_name": "Rosario T. Dimaculangan",
+    "address_purok": 1,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P1-101"
+  },
+  {
+    "household_id": "b33d-hh-102",
+    "family_head_name": "Marlon R. Castillo",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-102"
+  },
+  {
+    "household_id": "b33d-hh-103",
+    "family_head_name": "Arnel J. Aquino",
+    "address_purok": 5,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-103"
+  },
+  {
+    "household_id": "b33d-hh-104",
+    "family_head_name": "Romeo A. Castillo",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-104"
+  },
+  {
+    "household_id": "b33d-hh-105",
+    "family_head_name": "Cristina O. Basilio",
+    "address_purok": 6,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-105"
+  },
+  {
+    "household_id": "b33d-hh-106",
+    "family_head_name": "Lourdes H. Bautista",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-106"
+  },
+  {
+    "household_id": "b33d-hh-107",
+    "family_head_name": "Alfredo E. Gonzales",
+    "address_purok": 5,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-107"
+  },
+  {
+    "household_id": "b33d-hh-108",
+    "family_head_name": "Kristine C. Cañete",
+    "address_purok": 1,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-108"
+  },
+  {
+    "household_id": "b33d-hh-109",
+    "family_head_name": "Marites O. Mendoza",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-109"
+  },
+  {
+    "household_id": "b33d-hh-110",
+    "family_head_name": "Jose S. Sumagaysay",
+    "address_purok": 4,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-110"
+  },
+  {
+    "household_id": "b33d-hh-111",
+    "family_head_name": "Norma N. Aquino",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-111"
+  },
+  {
+    "household_id": "b33d-hh-112",
+    "family_head_name": "Ana J. Sumagaysay",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-112"
+  },
+  {
+    "household_id": "b33d-hh-113",
+    "family_head_name": "Ricardo E. Gonzales",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-113"
+  },
+  {
+    "household_id": "b33d-hh-114",
+    "family_head_name": "Leonardo A. Ramos",
+    "address_purok": 6,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-114"
+  },
+  {
+    "household_id": "b33d-hh-115",
+    "family_head_name": "Milagros S. Santos",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-115"
+  },
+  {
+    "household_id": "b33d-hh-116",
+    "family_head_name": "Jose L. Alvarez",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-116"
+  },
+  {
+    "household_id": "b33d-hh-117",
+    "family_head_name": "Noel P. Sumagaysay",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-117"
+  },
+  {
+    "household_id": "b33d-hh-118",
+    "family_head_name": "Josefina A. Ramos",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P3-118"
+  },
+  {
+    "household_id": "b33d-hh-119",
+    "family_head_name": "Alfredo H. Dimaculangan",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-119"
+  },
+  {
+    "household_id": "b33d-hh-120",
+    "family_head_name": "Maria V. Aquino",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-120"
+  },
+  {
+    "household_id": "b33d-hh-121",
+    "family_head_name": "Alfredo P. Ramos",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-121"
+  },
+  {
+    "household_id": "b33d-hh-122",
+    "family_head_name": "Juan L. Salazar",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-122"
+  },
+  {
+    "household_id": "b33d-hh-123",
+    "family_head_name": "Mary Grace R. Macaraeg",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-123"
+  },
+  {
+    "household_id": "b33d-hh-124",
+    "family_head_name": "Juan B. Lumapas",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-124"
+  },
+  {
+    "household_id": "b33d-hh-125",
+    "family_head_name": "Maricel J. Bautista",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-125"
+  },
+  {
+    "household_id": "b33d-hh-126",
+    "family_head_name": "Alfredo E. Sumagaysay",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-126"
+  },
+  {
+    "household_id": "b33d-hh-127",
+    "family_head_name": "Maricel H. Santos",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-127"
+  },
+  {
+    "household_id": "b33d-hh-128",
+    "family_head_name": "Erlinda C. Lopez",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-128"
+  },
+  {
+    "household_id": "b33d-hh-129",
+    "family_head_name": "Antonio V. Lopez",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-129"
+  },
+  {
+    "household_id": "b33d-hh-130",
+    "family_head_name": "Ricardo J. Cañete",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-130"
+  },
+  {
+    "household_id": "b33d-hh-131",
+    "family_head_name": "Jennifer P. Reyes",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-131"
+  },
+  {
+    "household_id": "b33d-hh-132",
+    "family_head_name": "Ana B. Manalo",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-132"
+  },
+  {
+    "household_id": "b33d-hh-133",
+    "family_head_name": "John Paul S. Castillo",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-133"
+  },
+  {
+    "household_id": "b33d-hh-134",
+    "family_head_name": "Leticia H. Lopez",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-134"
+  },
+  {
+    "household_id": "b33d-hh-135",
+    "family_head_name": "Juan E. Fernandez",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-135"
+  },
+  {
+    "household_id": "b33d-hh-136",
+    "family_head_name": "Angelica J. Abellana",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-136"
+  },
+  {
+    "household_id": "b33d-hh-137",
+    "family_head_name": "Ernesto J. Tumampos",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-137"
+  },
+  {
+    "household_id": "b33d-hh-138",
+    "family_head_name": "Pedro O. Reyes",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-138"
+  },
+  {
+    "household_id": "b33d-hh-139",
+    "family_head_name": "Antonio B. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-139"
+  },
+  {
+    "household_id": "b33d-hh-140",
+    "family_head_name": "Crisanto H. Castillo",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-140"
+  },
+  {
+    "household_id": "b33d-hh-141",
+    "family_head_name": "Milagros B. Tolentino",
+    "address_purok": 4,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-141"
+  },
+  {
+    "household_id": "b33d-hh-142",
+    "family_head_name": "Rolando I. Gonzales",
+    "address_purok": 5,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-142"
+  },
+  {
+    "household_id": "b33d-hh-143",
+    "family_head_name": "Teresita T. Lacson",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-143"
+  },
+  {
+    "household_id": "b33d-hh-144",
+    "family_head_name": "Ana C. Cabrera",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-144"
+  },
+  {
+    "household_id": "b33d-hh-145",
+    "family_head_name": "Ernesto O. Saavedra",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-145"
+  },
+  {
+    "household_id": "b33d-hh-146",
+    "family_head_name": "Ricardo S. Gonzales",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-146"
+  },
+  {
+    "household_id": "b33d-hh-147",
+    "family_head_name": "Angelica P. Aquino",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-147"
+  },
+  {
+    "household_id": "b33d-hh-148",
+    "family_head_name": "Elena T. Basilio",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-148"
+  },
+  {
+    "household_id": "b33d-hh-149",
+    "family_head_name": "Lorna I. Flores",
+    "address_purok": 2,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-149"
+  },
+  {
+    "household_id": "b33d-hh-150",
+    "family_head_name": "Luzviminda M. Alvarez",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-150"
+  },
+  {
+    "household_id": "b33d-hh-151",
+    "family_head_name": "Crisanto A. Santos",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-151"
+  },
+  {
+    "household_id": "b33d-hh-152",
+    "family_head_name": "Jose I. Mendoza",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-152"
+  },
+  {
+    "household_id": "b33d-hh-153",
+    "family_head_name": "Noel E. Yap",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-153"
+  },
+  {
+    "household_id": "b33d-hh-154",
+    "family_head_name": "Lourdes A. Garcia",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-154"
+  },
+  {
+    "household_id": "b33d-hh-155",
+    "family_head_name": "Angelica O. Ocampo",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-155"
+  },
+  {
+    "household_id": "b33d-hh-156",
+    "family_head_name": "Danilo I. Navarro",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-156"
+  },
+  {
+    "household_id": "b33d-hh-157",
+    "family_head_name": "Jennifer F. Abellana",
+    "address_purok": 6,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-157"
+  },
+  {
+    "household_id": "b33d-hh-158",
+    "family_head_name": "Erlinda O. Cañete",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-158"
+  },
+  {
+    "household_id": "b33d-hh-159",
+    "family_head_name": "Nestor S. Basilio",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-159"
+  },
+  {
+    "household_id": "b33d-hh-160",
+    "family_head_name": "Norma E. Mercado",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P1-160"
+  },
+  {
+    "household_id": "b33d-hh-161",
+    "family_head_name": "Luzviminda V. Tolentino",
+    "address_purok": 3,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-161"
+  },
+  {
+    "household_id": "b33d-hh-162",
+    "family_head_name": "Bienvenido T. Macaraeg",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-162"
+  },
+  {
+    "household_id": "b33d-hh-163",
+    "family_head_name": "Rodrigo G. Cabrera",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-163"
+  },
+  {
+    "household_id": "b33d-hh-164",
+    "family_head_name": "Danilo R. Bautista",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P2-164"
+  },
+  {
+    "household_id": "b33d-hh-165",
+    "family_head_name": "Rogelio V. Torres",
+    "address_purok": 4,
+    "dependent_count": 9,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-165"
+  },
+  {
+    "household_id": "b33d-hh-166",
+    "family_head_name": "Erlinda T. Aquino",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-166"
+  },
+  {
+    "household_id": "b33d-hh-167",
+    "family_head_name": "Arnel B. Sarmiento",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-167"
+  },
+  {
+    "household_id": "b33d-hh-168",
+    "family_head_name": "Rolando C. Cabrera",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-168"
+  },
+  {
+    "household_id": "b33d-hh-169",
+    "family_head_name": "Romeo S. Cañete",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-169"
+  },
+  {
+    "household_id": "b33d-hh-170",
+    "family_head_name": "Kristine M. Alvarez",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P3-170"
+  },
+  {
+    "household_id": "b33d-hh-171",
+    "family_head_name": "Ernesto H. Bautista",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-171"
+  },
+  {
+    "household_id": "b33d-hh-172",
+    "family_head_name": "Eduardo A. Gonzales",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-172"
+  },
+  {
+    "household_id": "b33d-hh-173",
+    "family_head_name": "Efren F. Dimaculangan",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-173"
+  },
+  {
+    "household_id": "b33d-hh-174",
+    "family_head_name": "Ricardo C. Flores",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-174"
+  },
+  {
+    "household_id": "b33d-hh-175",
+    "family_head_name": "Jonathan I. Cagas",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P4-175"
+  },
+  {
+    "household_id": "b33d-hh-176",
+    "family_head_name": "Maricel N. Mercado",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-176"
+  },
+  {
+    "household_id": "b33d-hh-177",
+    "family_head_name": "Danilo G. Santos",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-177"
+  },
+  {
+    "household_id": "b33d-hh-178",
+    "family_head_name": "Ricardo G. Manalo",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-178"
+  },
+  {
+    "household_id": "b33d-hh-179",
+    "family_head_name": "Joel C. Bacus",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-179"
+  },
+  {
+    "household_id": "b33d-hh-180",
+    "family_head_name": "Kristine A. Domingo",
+    "address_purok": 3,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-180"
+  },
+  {
+    "household_id": "b33d-hh-181",
+    "family_head_name": "Bienvenido T. Dela Cruz",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-181"
+  },
+  {
+    "household_id": "b33d-hh-182",
+    "family_head_name": "Erlinda O. Navarro",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-182"
+  },
+  {
+    "household_id": "b33d-hh-183",
+    "family_head_name": "Bienvenido C. Alvarez",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P2-183"
+  },
+  {
+    "household_id": "b33d-hh-184",
+    "family_head_name": "Angelica C. Villanueva",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-184"
+  },
+  {
+    "household_id": "b33d-hh-185",
+    "family_head_name": "Nestor E. Lacson",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-185"
+  },
+  {
+    "household_id": "b33d-hh-186",
+    "family_head_name": "Lorna P. Lopez",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-186"
+  },
+  {
+    "household_id": "b33d-hh-187",
+    "family_head_name": "Teodoro T. Villanueva",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-187"
+  },
+  {
+    "household_id": "b33d-hh-188",
+    "family_head_name": "Maricel J. Pascual",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-188"
+  },
+  {
+    "household_id": "b33d-hh-189",
+    "family_head_name": "Marlon C. Gonzales",
+    "address_purok": 1,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-189"
+  },
+  {
+    "household_id": "b33d-hh-190",
+    "family_head_name": "Reynaldo S. Bautista",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-190"
+  },
+  {
+    "household_id": "b33d-hh-191",
+    "family_head_name": "Milagros C. Pascual",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-191"
+  },
+  {
+    "household_id": "b33d-hh-192",
+    "family_head_name": "Norma P. Salazar",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-192"
+  },
+  {
+    "household_id": "b33d-hh-193",
+    "family_head_name": "Nestor V. Mercado",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-193"
+  },
+  {
+    "household_id": "b33d-hh-194",
+    "family_head_name": "Danilo G. Manalo",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P3-194"
+  },
+  {
+    "household_id": "b33d-hh-195",
+    "family_head_name": "Ernesto T. Flores",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-195"
+  },
+  {
+    "household_id": "b33d-hh-196",
+    "family_head_name": "Josefina A. Mercado",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-196"
+  },
+  {
+    "household_id": "b33d-hh-197",
+    "family_head_name": "Remedios T. Pascual",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-197"
+  },
+  {
+    "household_id": "b33d-hh-198",
+    "family_head_name": "Danilo F. Villanueva",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-198"
+  },
+  {
+    "household_id": "b33d-hh-199",
+    "family_head_name": "Rogelio C. Sarmiento",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-199"
+  },
+  {
+    "household_id": "b33d-hh-200",
+    "family_head_name": "Mary Grace O. Pascual",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-200"
+  },
+  {
+    "household_id": "b33d-hh-201",
+    "family_head_name": "Divina M. Sumagaysay",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-201"
+  },
+  {
+    "household_id": "b33d-hh-202",
+    "family_head_name": "John Paul T. Cañete",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-202"
+  },
+  {
+    "household_id": "b33d-hh-203",
+    "family_head_name": "Nestor C. Gonzales",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-203"
+  },
+  {
+    "household_id": "b33d-hh-204",
+    "family_head_name": "Teodoro E. Castillo",
+    "address_purok": 6,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-204"
+  },
+  {
+    "household_id": "b33d-hh-205",
+    "family_head_name": "Jocelyn H. Lopez",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-205"
+  },
+  {
+    "household_id": "b33d-hh-206",
+    "family_head_name": "Analyn M. Salazar",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-206"
+  },
+  {
+    "household_id": "b33d-hh-207",
+    "family_head_name": "Corazon H. Basilio",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-207"
+  },
+  {
+    "household_id": "b33d-hh-208",
+    "family_head_name": "Lourdes O. Villanueva",
+    "address_purok": 3,
+    "dependent_count": 9,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-208"
+  },
+  {
+    "household_id": "b33d-hh-209",
+    "family_head_name": "Jerome F. Sarmiento",
+    "address_purok": 2,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-209"
+  },
+  {
+    "household_id": "b33d-hh-210",
+    "family_head_name": "Rolando C. Navarro",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-210"
+  },
+  {
+    "household_id": "b33d-hh-211",
+    "family_head_name": "Luzviminda I. Santos",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-211"
+  },
+  {
+    "household_id": "b33d-hh-212",
+    "family_head_name": "Ernesto F. Flores",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-212"
+  },
+  {
+    "household_id": "b33d-hh-213",
+    "family_head_name": "Juan H. Saavedra",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-213"
+  },
+  {
+    "household_id": "b33d-hh-214",
+    "family_head_name": "Jennifer P. Saavedra",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-214"
+  },
+  {
+    "household_id": "b33d-hh-215",
+    "family_head_name": "Teodoro R. Macaraeg",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P6-215"
+  },
+  {
+    "household_id": "b33d-hh-216",
+    "family_head_name": "Maria D. Tolentino",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-216"
+  },
+  {
+    "household_id": "b33d-hh-217",
+    "family_head_name": "Analyn H. Basilio",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-217"
+  },
+  {
+    "household_id": "b33d-hh-218",
+    "family_head_name": "Luzviminda R. Ocampo",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-218"
+  },
+  {
+    "household_id": "b33d-hh-219",
+    "family_head_name": "Danilo O. Cagas",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-219"
+  },
+  {
+    "household_id": "b33d-hh-220",
+    "family_head_name": "Lorna R. Cañete",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-220"
+  },
+  {
+    "household_id": "b33d-hh-221",
+    "family_head_name": "Christian J. Sumagaysay",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-221"
+  },
+  {
+    "household_id": "b33d-hh-222",
+    "family_head_name": "Jerome E. Bacus",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-222"
+  },
+  {
+    "household_id": "b33d-hh-223",
+    "family_head_name": "John Paul D. Bacus",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-223"
+  },
+  {
+    "household_id": "b33d-hh-224",
+    "family_head_name": "Jonathan C. Cañete",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-224"
+  },
+  {
+    "household_id": "b33d-hh-225",
+    "family_head_name": "Remedios S. Mendoza",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-225"
+  },
+  {
+    "household_id": "b33d-hh-226",
+    "family_head_name": "Ramon R. Sumagaysay",
+    "address_purok": 3,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-226"
+  },
+  {
+    "household_id": "b33d-hh-227",
+    "family_head_name": "Noel L. Saavedra",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-227"
+  },
+  {
+    "household_id": "b33d-hh-228",
+    "family_head_name": "Rowena N. Magbanua",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-228"
+  },
+  {
+    "household_id": "b33d-hh-229",
+    "family_head_name": "Bienvenido L. Mendoza",
+    "address_purok": 4,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P4-229"
+  },
+  {
+    "household_id": "b33d-hh-230",
+    "family_head_name": "Mary Grace C. Bacus",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-230"
+  },
+  {
+    "household_id": "b33d-hh-231",
+    "family_head_name": "Arnel H. Macaraeg",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-231"
+  },
+  {
+    "household_id": "b33d-hh-232",
+    "family_head_name": "Divina H. Cagas",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-232"
+  },
+  {
+    "household_id": "b33d-hh-233",
+    "family_head_name": "Elena S. Garcia",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-233"
+  },
+  {
+    "household_id": "b33d-hh-234",
+    "family_head_name": "Rowena R. Dimaculangan",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-234"
+  },
+  {
+    "household_id": "b33d-hh-235",
+    "family_head_name": "Precious O. Lopez",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-235"
+  },
+  {
+    "household_id": "b33d-hh-236",
+    "family_head_name": "Jerome G. Reyes",
+    "address_purok": 1,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-236"
+  },
+  {
+    "household_id": "b33d-hh-237",
+    "family_head_name": "Jonathan F. Manalo",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-237"
+  },
+  {
+    "household_id": "b33d-hh-238",
+    "family_head_name": "Jocelyn B. Mendoza",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-238"
+  },
+  {
+    "household_id": "b33d-hh-239",
+    "family_head_name": "Crisanto N. Yap",
+    "address_purok": 6,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-239"
+  },
+  {
+    "household_id": "b33d-hh-240",
+    "family_head_name": "Arnel V. Pascual",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-240"
+  },
+  {
+    "household_id": "b33d-hh-241",
+    "family_head_name": "Mary Grace P. Macaraeg",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-241"
+  },
+  {
+    "household_id": "b33d-hh-242",
+    "family_head_name": "Joel L. Aquino",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-242"
+  },
+  {
+    "household_id": "b33d-hh-243",
+    "family_head_name": "Angelica T. Ramos",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-243"
+  },
+  {
+    "household_id": "b33d-hh-244",
+    "family_head_name": "Divina V. Cagas",
+    "address_purok": 2,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-244"
+  },
+  {
+    "household_id": "b33d-hh-245",
+    "family_head_name": "Nestor H. Pascual",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-245"
+  },
+  {
+    "household_id": "b33d-hh-246",
+    "family_head_name": "Imelda H. Mendoza",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-246"
+  },
+  {
+    "household_id": "b33d-hh-247",
+    "family_head_name": "Kristine H. Salazar",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P2-247"
+  },
+  {
+    "household_id": "b33d-hh-248",
+    "family_head_name": "Danilo H. Bautista",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-248"
+  },
+  {
+    "household_id": "b33d-hh-249",
+    "family_head_name": "Josefina A. Cañete",
+    "address_purok": 2,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-249"
+  },
+  {
+    "household_id": "b33d-hh-250",
+    "family_head_name": "Ernesto O. Ramos",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-250"
+  },
+  {
+    "household_id": "b33d-hh-251",
+    "family_head_name": "Efren O. Yap",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-251"
+  },
+  {
+    "household_id": "b33d-hh-252",
+    "family_head_name": "Maria N. Yap",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-252"
+  },
+  {
+    "household_id": "b33d-hh-253",
+    "family_head_name": "Marites M. Lacson",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P6-253"
+  },
+  {
+    "household_id": "b33d-hh-254",
+    "family_head_name": "Corazon P. Lopez",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-254"
+  },
+  {
+    "household_id": "b33d-hh-255",
+    "family_head_name": "Marlon V. Garcia",
+    "address_purok": 4,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-255"
+  },
+  {
+    "household_id": "b33d-hh-256",
+    "family_head_name": "Gemma E. Fernandez",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-256"
+  },
+  {
+    "household_id": "b33d-hh-257",
+    "family_head_name": "Jose L. Tumampos",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-257"
+  },
+  {
+    "household_id": "b33d-hh-258",
+    "family_head_name": "Rolando V. Basilio",
+    "address_purok": 4,
+    "dependent_count": 9,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-258"
+  },
+  {
+    "household_id": "b33d-hh-259",
+    "family_head_name": "Alfredo H. Abellana",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-259"
+  },
+  {
+    "household_id": "b33d-hh-260",
+    "family_head_name": "Danilo J. Ramos",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-260"
+  },
+  {
+    "household_id": "b33d-hh-261",
+    "family_head_name": "Analyn G. Mendoza",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-261"
+  },
+  {
+    "household_id": "b33d-hh-262",
+    "family_head_name": "John Paul J. Flores",
+    "address_purok": 1,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-262"
+  },
+  {
+    "household_id": "b33d-hh-263",
+    "family_head_name": "John Paul E. Domingo",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-263"
+  },
+  {
+    "household_id": "b33d-hh-264",
+    "family_head_name": "Precious A. Reyes",
+    "address_purok": 2,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-264"
+  },
+  {
+    "household_id": "b33d-hh-265",
+    "family_head_name": "Imelda E. Sarmiento",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-265"
+  },
+  {
+    "household_id": "b33d-hh-266",
+    "family_head_name": "Maricel A. Bautista",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-266"
+  },
+  {
+    "household_id": "b33d-hh-267",
+    "family_head_name": "Remedios G. Macaraeg",
+    "address_purok": 2,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-267"
+  },
+  {
+    "household_id": "b33d-hh-268",
+    "family_head_name": "Rogelio J. Cabrera",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-268"
+  },
+  {
+    "household_id": "b33d-hh-269",
+    "family_head_name": "Noel H. Lumapas",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-269"
+  },
+  {
+    "household_id": "b33d-hh-270",
+    "family_head_name": "Gemma C. Fernandez",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-270"
+  },
+  {
+    "household_id": "b33d-hh-271",
+    "family_head_name": "Christian V. Fernandez",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-271"
+  },
+  {
+    "household_id": "b33d-hh-272",
+    "family_head_name": "Danilo I. Pascual",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-272"
+  },
+  {
+    "household_id": "b33d-hh-273",
+    "family_head_name": "Bienvenido S. Lopez",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-273"
+  },
+  {
+    "household_id": "b33d-hh-274",
+    "family_head_name": "Analyn D. Torres",
+    "address_purok": 1,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-274"
+  },
+  {
+    "household_id": "b33d-hh-275",
+    "family_head_name": "Lorna E. Lopez",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-275"
+  },
+  {
+    "household_id": "b33d-hh-276",
+    "family_head_name": "Nestor E. Reyes",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-276"
+  },
+  {
+    "household_id": "b33d-hh-277",
+    "family_head_name": "Nestor O. Bacus",
+    "address_purok": 2,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-277"
+  },
+  {
+    "household_id": "b33d-hh-278",
+    "family_head_name": "Remedios D. Castillo",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-278"
+  },
+  {
+    "household_id": "b33d-hh-279",
+    "family_head_name": "Rowena I. Saavedra",
+    "address_purok": 4,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-279"
+  },
+  {
+    "household_id": "b33d-hh-280",
+    "family_head_name": "Divina O. Basilio",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-280"
+  },
+  {
+    "household_id": "b33d-hh-281",
+    "family_head_name": "Maricel L. Reyes",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-281"
+  },
+  {
+    "household_id": "b33d-hh-282",
+    "family_head_name": "Leonardo E. Domingo",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-282"
+  },
+  {
+    "household_id": "b33d-hh-283",
+    "family_head_name": "Remedios D. Manalo",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-283"
+  },
+  {
+    "household_id": "b33d-hh-284",
+    "family_head_name": "Analyn B. Magbanua",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-284"
+  },
+  {
+    "household_id": "b33d-hh-285",
+    "family_head_name": "Arnel A. Salazar",
+    "address_purok": 2,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-285"
+  },
+  {
+    "household_id": "b33d-hh-286",
+    "family_head_name": "Alfredo A. Macaraeg",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-286"
+  },
+  {
+    "household_id": "b33d-hh-287",
+    "family_head_name": "Erlinda B. Dela Cruz",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-287"
+  },
+  {
+    "household_id": "b33d-hh-288",
+    "family_head_name": "Mary Grace E. Tolentino",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-288"
+  },
+  {
+    "household_id": "b33d-hh-289",
+    "family_head_name": "Arnel B. Tumampos",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-289"
+  },
+  {
+    "household_id": "b33d-hh-290",
+    "family_head_name": "Nestor F. Sarmiento",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-290"
+  },
+  {
+    "household_id": "b33d-hh-291",
+    "family_head_name": "Jerome A. Castillo",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-291"
+  },
+  {
+    "household_id": "b33d-hh-292",
+    "family_head_name": "Marites H. Domingo",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-292"
+  },
+  {
+    "household_id": "b33d-hh-293",
+    "family_head_name": "Mark Anthony H. Magbanua",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-293"
+  },
+  {
+    "household_id": "b33d-hh-294",
+    "family_head_name": "Maria F. Fernandez",
+    "address_purok": 1,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-294"
+  },
+  {
+    "household_id": "b33d-hh-295",
+    "family_head_name": "Jose M. Lumapas",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-295"
+  },
+  {
+    "household_id": "b33d-hh-296",
+    "family_head_name": "Ricardo I. Cañete",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-296"
+  },
+  {
+    "household_id": "b33d-hh-297",
+    "family_head_name": "Juan A. Basilio",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-297"
+  },
+  {
+    "household_id": "b33d-hh-298",
+    "family_head_name": "Rogelio E. Aquino",
+    "address_purok": 2,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-298"
+  },
+  {
+    "household_id": "b33d-hh-299",
+    "family_head_name": "Crisanto E. Ramos",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-299"
+  },
+  {
+    "household_id": "b33d-hh-300",
+    "family_head_name": "Ernesto T. Basilio",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-300"
+  },
+  {
+    "household_id": "b33d-hh-301",
+    "family_head_name": "Ricardo V. Manalo",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-301"
+  },
+  {
+    "household_id": "b33d-hh-302",
+    "family_head_name": "Mary Grace O. Mendoza",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-302"
+  },
+  {
+    "household_id": "b33d-hh-303",
+    "family_head_name": "Christian H. Santos",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-303"
+  },
+  {
+    "household_id": "b33d-hh-304",
+    "family_head_name": "Joel T. Cabrera",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-304"
+  },
+  {
+    "household_id": "b33d-hh-305",
+    "family_head_name": "Jerome E. Bacus",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-305"
+  },
+  {
+    "household_id": "b33d-hh-306",
+    "family_head_name": "Cristina V. Castillo",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-306"
+  },
+  {
+    "household_id": "b33d-hh-307",
+    "family_head_name": "Teodoro F. Bautista",
+    "address_purok": 4,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-307"
+  },
+  {
+    "household_id": "b33d-hh-308",
+    "family_head_name": "Marlon R. Dimaculangan",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P2-308"
+  },
+  {
+    "household_id": "b33d-hh-309",
+    "family_head_name": "Norma E. Dela Cruz",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-309"
+  },
+  {
+    "household_id": "b33d-hh-310",
+    "family_head_name": "Maria F. Domingo",
+    "address_purok": 4,
+    "dependent_count": 10,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-310"
+  },
+  {
+    "household_id": "b33d-hh-311",
+    "family_head_name": "Mary Grace T. Salazar",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-311"
+  },
+  {
+    "household_id": "b33d-hh-312",
+    "family_head_name": "Evangeline A. Yap",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-312"
+  },
+  {
+    "household_id": "b33d-hh-313",
+    "family_head_name": "Christian N. Lopez",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-313"
+  },
+  {
+    "household_id": "b33d-hh-314",
+    "family_head_name": "Teodoro F. Pascual",
+    "address_purok": 2,
+    "dependent_count": 10,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-314"
+  },
+  {
+    "household_id": "b33d-hh-315",
+    "family_head_name": "Rowena P. Flores",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-315"
+  },
+  {
+    "household_id": "b33d-hh-316",
+    "family_head_name": "Lourdes A. Cañete",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-316"
+  },
+  {
+    "household_id": "b33d-hh-317",
+    "family_head_name": "Gemma L. Lopez",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-317"
+  },
+  {
+    "household_id": "b33d-hh-318",
+    "family_head_name": "Rolando I. Magbanua",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-318"
+  },
+  {
+    "household_id": "b33d-hh-319",
+    "family_head_name": "Leticia V. Alvarez",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-319"
+  },
+  {
+    "household_id": "b33d-hh-320",
+    "family_head_name": "Rodrigo G. Ramos",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-320"
+  },
+  {
+    "household_id": "b33d-hh-321",
+    "family_head_name": "Cristina L. Aquino",
+    "address_purok": 4,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-321"
+  },
+  {
+    "household_id": "b33d-hh-322",
+    "family_head_name": "Jennifer L. Ramos",
+    "address_purok": 4,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-322"
+  },
+  {
+    "household_id": "b33d-hh-323",
+    "family_head_name": "Noel V. Castillo",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-323"
+  },
+  {
+    "household_id": "b33d-hh-324",
+    "family_head_name": "Antonio L. Saavedra",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-324"
+  },
+  {
+    "household_id": "b33d-hh-325",
+    "family_head_name": "Maricel B. Lopez",
+    "address_purok": 2,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-325"
+  },
+  {
+    "household_id": "b33d-hh-326",
+    "family_head_name": "Ramon L. Aquino",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-326"
+  },
+  {
+    "household_id": "b33d-hh-327",
+    "family_head_name": "Jerome N. Cagas",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-327"
+  },
+  {
+    "household_id": "b33d-hh-328",
+    "family_head_name": "Jocelyn A. Mendoza",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-328"
+  },
+  {
+    "household_id": "b33d-hh-329",
+    "family_head_name": "Nestor S. Ocampo",
+    "address_purok": 5,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-329"
+  },
+  {
+    "household_id": "b33d-hh-330",
+    "family_head_name": "Lourdes R. Abellana",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-330"
+  },
+  {
+    "household_id": "b33d-hh-331",
+    "family_head_name": "Divina L. Abellana",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-331"
+  },
+  {
+    "household_id": "b33d-hh-332",
+    "family_head_name": "Joel O. Yap",
+    "address_purok": 5,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-332"
+  },
+  {
+    "household_id": "b33d-hh-333",
+    "family_head_name": "Danilo B. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P6-333"
+  },
+  {
+    "household_id": "b33d-hh-334",
+    "family_head_name": "Jennifer E. Ocampo",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-334"
+  },
+  {
+    "household_id": "b33d-hh-335",
+    "family_head_name": "Josefina D. Cañete",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-335"
+  },
+  {
+    "household_id": "b33d-hh-336",
+    "family_head_name": "Reynaldo B. Abellana",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-336"
+  },
+  {
+    "household_id": "b33d-hh-337",
+    "family_head_name": "Corazon H. Navarro",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-337"
+  },
+  {
+    "household_id": "b33d-hh-338",
+    "family_head_name": "Lourdes G. Basilio",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-338"
+  },
+  {
+    "household_id": "b33d-hh-339",
+    "family_head_name": "Imelda V. Navarro",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-339"
+  },
+  {
+    "household_id": "b33d-hh-340",
+    "family_head_name": "Evangeline I. Flores",
+    "address_purok": 5,
+    "dependent_count": 10,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-340"
+  },
+  {
+    "household_id": "b33d-hh-341",
+    "family_head_name": "Josefina D. Mendoza",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-341"
+  },
+  {
+    "household_id": "b33d-hh-342",
+    "family_head_name": "Luzviminda F. Abellana",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-342"
+  },
+  {
+    "household_id": "b33d-hh-343",
+    "family_head_name": "Teresita M. Alvarez",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-343"
+  },
+  {
+    "household_id": "b33d-hh-344",
+    "family_head_name": "Angelica T. Sumagaysay",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-344"
+  },
+  {
+    "household_id": "b33d-hh-345",
+    "family_head_name": "Mary Grace C. Sarmiento",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-345"
+  },
+  {
+    "household_id": "b33d-hh-346",
+    "family_head_name": "Precious N. Magbanua",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-346"
+  },
+  {
+    "household_id": "b33d-hh-347",
+    "family_head_name": "Jerome S. Saavedra",
+    "address_purok": 1,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-347"
+  },
+  {
+    "household_id": "b33d-hh-348",
+    "family_head_name": "John Paul L. Cagas",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-348"
+  },
+  {
+    "household_id": "b33d-hh-349",
+    "family_head_name": "Jonathan I. Mercado",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-349"
+  },
+  {
+    "household_id": "b33d-hh-350",
+    "family_head_name": "Eduardo H. Sarmiento",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-350"
+  },
+  {
+    "household_id": "b33d-hh-351",
+    "family_head_name": "Bienvenido D. Villanueva",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-351"
+  },
+  {
+    "household_id": "b33d-hh-352",
+    "family_head_name": "Imelda E. Torres",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-352"
+  },
+  {
+    "household_id": "b33d-hh-353",
+    "family_head_name": "Ramon V. Flores",
+    "address_purok": 3,
+    "dependent_count": 9,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-353"
+  },
+  {
+    "household_id": "b33d-hh-354",
+    "family_head_name": "Ernesto S. Basilio",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-354"
+  },
+  {
+    "household_id": "b33d-hh-355",
+    "family_head_name": "Lourdes R. Ramos",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P1-355"
+  },
+  {
+    "household_id": "b33d-hh-356",
+    "family_head_name": "Divina V. Fernandez",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-356"
+  },
+  {
+    "household_id": "b33d-hh-357",
+    "family_head_name": "Bienvenido C. Cagas",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-357"
+  },
+  {
+    "household_id": "b33d-hh-358",
+    "family_head_name": "Ernesto C. Aquino",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-358"
+  },
+  {
+    "household_id": "b33d-hh-359",
+    "family_head_name": "Milagros N. Sumagaysay",
+    "address_purok": 3,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-359"
+  },
+  {
+    "household_id": "b33d-hh-360",
+    "family_head_name": "Marites V. Navarro",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-360"
+  },
+  {
+    "household_id": "b33d-hh-361",
+    "family_head_name": "Rogelio P. Magbanua",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-361"
+  },
+  {
+    "household_id": "b33d-hh-362",
+    "family_head_name": "Jerome L. Cagas",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-362"
+  },
+  {
+    "household_id": "b33d-hh-363",
+    "family_head_name": "Ricardo N. Yap",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-363"
+  },
+  {
+    "household_id": "b33d-hh-364",
+    "family_head_name": "Leonardo L. Mercado",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-364"
+  },
+  {
+    "household_id": "b33d-hh-365",
+    "family_head_name": "Ramon S. Cañete",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-365"
+  },
+  {
+    "household_id": "b33d-hh-366",
+    "family_head_name": "Pedro I. Basilio",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-366"
+  },
+  {
+    "household_id": "b33d-hh-367",
+    "family_head_name": "Eduardo A. Santos",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-367"
+  },
+  {
+    "household_id": "b33d-hh-368",
+    "family_head_name": "Joel H. Macaraeg",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-368"
+  },
+  {
+    "household_id": "b33d-hh-369",
+    "family_head_name": "Jerome T. Bautista",
+    "address_purok": 1,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-369"
+  },
+  {
+    "household_id": "b33d-hh-370",
+    "family_head_name": "Jerome N. Sumagaysay",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-370"
+  },
+  {
+    "household_id": "b33d-hh-371",
+    "family_head_name": "Ramon P. Basilio",
+    "address_purok": 5,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-371"
+  },
+  {
+    "household_id": "b33d-hh-372",
+    "family_head_name": "Bienvenido V. Mendoza",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-372"
+  },
+  {
+    "household_id": "b33d-hh-373",
+    "family_head_name": "Rolando L. Cagas",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P1-373"
+  },
+  {
+    "household_id": "b33d-hh-374",
+    "family_head_name": "Reynaldo M. Lopez",
+    "address_purok": 6,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-374"
+  },
+  {
+    "household_id": "b33d-hh-375",
+    "family_head_name": "Noel I. Bautista",
+    "address_purok": 3,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-375"
+  },
+  {
+    "household_id": "b33d-hh-376",
+    "family_head_name": "Rogelio G. Tumampos",
+    "address_purok": 3,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P3-376"
+  },
+  {
+    "household_id": "b33d-hh-377",
+    "family_head_name": "Cristina C. Tumampos",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-377"
+  },
+  {
+    "household_id": "b33d-hh-378",
+    "family_head_name": "Angelica M. Salazar",
+    "address_purok": 4,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-378"
+  },
+  {
+    "household_id": "b33d-hh-379",
+    "family_head_name": "Rodrigo O. Cabrera",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-379"
+  },
+  {
+    "household_id": "b33d-hh-380",
+    "family_head_name": "Ramon S. Cagas",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-380"
+  },
+  {
+    "household_id": "b33d-hh-381",
+    "family_head_name": "Milagros J. Tolentino",
+    "address_purok": 1,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-381"
+  },
+  {
+    "household_id": "b33d-hh-382",
+    "family_head_name": "Josefina A. Tumampos",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-382"
+  },
+  {
+    "household_id": "b33d-hh-383",
+    "family_head_name": "Jennifer V. Sumagaysay",
+    "address_purok": 1,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-383"
+  },
+  {
+    "household_id": "b33d-hh-384",
+    "family_head_name": "Joel J. Santos",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-384"
+  },
+  {
+    "household_id": "b33d-hh-385",
+    "family_head_name": "Crisanto P. Santos",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-385"
+  },
+  {
+    "household_id": "b33d-hh-386",
+    "family_head_name": "Efren G. Mercado",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-386"
+  },
+  {
+    "household_id": "b33d-hh-387",
+    "family_head_name": "Jennifer N. Navarro",
+    "address_purok": 4,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-387"
+  },
+  {
+    "household_id": "b33d-hh-388",
+    "family_head_name": "Elena J. Bacus",
+    "address_purok": 3,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-388"
+  },
+  {
+    "household_id": "b33d-hh-389",
+    "family_head_name": "Jennifer V. Flores",
+    "address_purok": 6,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-389"
+  },
+  {
+    "household_id": "b33d-hh-390",
+    "family_head_name": "Marlon V. Salazar",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-390"
+  },
+  {
+    "household_id": "b33d-hh-391",
+    "family_head_name": "Milagros I. Sumagaysay",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-391"
+  },
+  {
+    "household_id": "b33d-hh-392",
+    "family_head_name": "Noel R. Ramos",
+    "address_purok": 3,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-392"
+  },
+  {
+    "household_id": "b33d-hh-393",
+    "family_head_name": "Marlon P. Gonzales",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-393"
+  },
+  {
+    "household_id": "b33d-hh-394",
+    "family_head_name": "Danilo D. Fernandez",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-394"
+  },
+  {
+    "household_id": "b33d-hh-395",
+    "family_head_name": "Noel A. Dimaculangan",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-395"
+  },
+  {
+    "household_id": "b33d-hh-396",
+    "family_head_name": "Evangeline F. Dela Cruz",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-396"
+  },
+  {
+    "household_id": "b33d-hh-397",
+    "family_head_name": "Leonardo L. Pascual",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-397"
+  },
+  {
+    "household_id": "b33d-hh-398",
+    "family_head_name": "Luzviminda R. Tumampos",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-398"
+  },
+  {
+    "household_id": "b33d-hh-399",
+    "family_head_name": "Juan G. Manalo",
+    "address_purok": 5,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P5-399"
+  },
+  {
+    "household_id": "b33d-hh-400",
+    "family_head_name": "Imelda S. Abellana",
+    "address_purok": 2,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-400"
+  },
+  {
+    "household_id": "b33d-hh-401",
+    "family_head_name": "Joel A. Bautista",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-401"
+  },
+  {
+    "household_id": "b33d-hh-402",
+    "family_head_name": "Ernesto V. Lumapas",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-402"
+  },
+  {
+    "household_id": "b33d-hh-403",
+    "family_head_name": "Divina F. Lumapas",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-403"
+  },
+  {
+    "household_id": "b33d-hh-404",
+    "family_head_name": "Alfredo B. Navarro",
+    "address_purok": 2,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-404"
+  },
+  {
+    "household_id": "b33d-hh-405",
+    "family_head_name": "Juan T. Pascual",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-405"
+  },
+  {
+    "household_id": "b33d-hh-406",
+    "family_head_name": "Norma L. Dimaculangan",
+    "address_purok": 1,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-406"
+  },
+  {
+    "household_id": "b33d-hh-407",
+    "family_head_name": "John Paul M. Salazar",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-407"
+  },
+  {
+    "household_id": "b33d-hh-408",
+    "family_head_name": "Lourdes F. Magbanua",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-408"
+  },
+  {
+    "household_id": "b33d-hh-409",
+    "family_head_name": "Jerome T. Cañete",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-409"
+  },
+  {
+    "household_id": "b33d-hh-410",
+    "family_head_name": "Efren H. Cagas",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P4-410"
+  },
+  {
+    "household_id": "b33d-hh-411",
+    "family_head_name": "Juan A. Tolentino",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P3-411"
+  },
+  {
+    "household_id": "b33d-hh-412",
+    "family_head_name": "Ana N. Reyes",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-412"
+  },
+  {
+    "household_id": "b33d-hh-413",
+    "family_head_name": "Angelica O. Magbanua",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-413"
+  },
+  {
+    "household_id": "b33d-hh-414",
+    "family_head_name": "Ana J. Salazar",
+    "address_purok": 2,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P2-414"
+  },
+  {
+    "household_id": "b33d-hh-415",
+    "family_head_name": "Nestor L. Sarmiento",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-415"
+  },
+  {
+    "household_id": "b33d-hh-416",
+    "family_head_name": "Luzviminda A. Mercado",
+    "address_purok": 4,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-416"
+  },
+  {
+    "household_id": "b33d-hh-417",
+    "family_head_name": "Maria R. Basilio",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-417"
+  },
+  {
+    "household_id": "b33d-hh-418",
+    "family_head_name": "Pedro T. Dimaculangan",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-418"
+  },
+  {
+    "household_id": "b33d-hh-419",
+    "family_head_name": "Divina N. Lumapas",
+    "address_purok": 5,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-419"
+  },
+  {
+    "household_id": "b33d-hh-420",
+    "family_head_name": "Imelda I. Salazar",
+    "address_purok": 3,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-420"
+  },
+  {
+    "household_id": "b33d-hh-421",
+    "family_head_name": "Leticia H. Salazar",
+    "address_purok": 3,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-421"
+  },
+  {
+    "household_id": "b33d-hh-422",
+    "family_head_name": "Leonardo A. Cañete",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-422"
+  },
+  {
+    "household_id": "b33d-hh-423",
+    "family_head_name": "Teodoro M. Villanueva",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-423"
+  },
+  {
+    "household_id": "b33d-hh-424",
+    "family_head_name": "Rolando F. Sumagaysay",
+    "address_purok": 4,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-424"
+  },
+  {
+    "household_id": "b33d-hh-425",
+    "family_head_name": "Jose B. Basilio",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-425"
+  },
+  {
+    "household_id": "b33d-hh-426",
+    "family_head_name": "Eduardo D. Lacson",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-426"
+  },
+  {
+    "household_id": "b33d-hh-427",
+    "family_head_name": "Nestor I. Yap",
+    "address_purok": 1,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-427"
+  },
+  {
+    "household_id": "b33d-hh-428",
+    "family_head_name": "Reynaldo N. Tolentino",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-428"
+  },
+  {
+    "household_id": "b33d-hh-429",
+    "family_head_name": "Ramon A. Sumagaysay",
+    "address_purok": 4,
+    "dependent_count": 9,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-429"
+  },
+  {
+    "household_id": "b33d-hh-430",
+    "family_head_name": "Teresita P. Castillo",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-430"
+  },
+  {
+    "household_id": "b33d-hh-431",
+    "family_head_name": "Precious E. Domingo",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-431"
+  },
+  {
+    "household_id": "b33d-hh-432",
+    "family_head_name": "Luzviminda I. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-432"
+  },
+  {
+    "household_id": "b33d-hh-433",
+    "family_head_name": "Luzviminda E. Navarro",
+    "address_purok": 6,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-433"
+  },
+  {
+    "household_id": "b33d-hh-434",
+    "family_head_name": "Leonardo E. Santos",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-434"
+  },
+  {
+    "household_id": "b33d-hh-435",
+    "family_head_name": "Crisanto H. Gonzales",
+    "address_purok": 4,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-435"
+  },
+  {
+    "household_id": "b33d-hh-436",
+    "family_head_name": "Evangeline N. Abellana",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-436"
+  },
+  {
+    "household_id": "b33d-hh-437",
+    "family_head_name": "Reynaldo V. Tumampos",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-437"
+  },
+  {
+    "household_id": "b33d-hh-438",
+    "family_head_name": "Evangeline V. Santos",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-438"
+  },
+  {
+    "household_id": "b33d-hh-439",
+    "family_head_name": "Josefina O. Magbanua",
+    "address_purok": 6,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-439"
+  },
+  {
+    "household_id": "b33d-hh-440",
+    "family_head_name": "Ernesto N. Macaraeg",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-440"
+  },
+  {
+    "household_id": "b33d-hh-441",
+    "family_head_name": "Luzviminda L. Ocampo",
+    "address_purok": 5,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-441"
+  },
+  {
+    "household_id": "b33d-hh-442",
+    "family_head_name": "Rogelio L. Santos",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-442"
+  },
+  {
+    "household_id": "b33d-hh-443",
+    "family_head_name": "Josefina L. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-443"
+  },
+  {
+    "household_id": "b33d-hh-444",
+    "family_head_name": "Ernesto B. Tumampos",
+    "address_purok": 5,
+    "dependent_count": 7,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-444"
+  },
+  {
+    "household_id": "b33d-hh-445",
+    "family_head_name": "Maria C. Reyes",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-445"
+  },
+  {
+    "household_id": "b33d-hh-446",
+    "family_head_name": "Alfredo R. Bautista",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-446"
+  },
+  {
+    "household_id": "b33d-hh-447",
+    "family_head_name": "Juan L. Magbanua",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-447"
+  },
+  {
+    "household_id": "b33d-hh-448",
+    "family_head_name": "Ana F. Domingo",
+    "address_purok": 2,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-448"
+  },
+  {
+    "household_id": "b33d-hh-449",
+    "family_head_name": "Jose P. Saavedra",
+    "address_purok": 2,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-449"
+  },
+  {
+    "household_id": "b33d-hh-450",
+    "family_head_name": "Corazon I. Lopez",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-450"
+  },
+  {
+    "household_id": "b33d-hh-451",
+    "family_head_name": "Jerome T. Mercado",
+    "address_purok": 1,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-451"
+  },
+  {
+    "household_id": "b33d-hh-452",
+    "family_head_name": "Milagros C. Abellana",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-452"
+  },
+  {
+    "household_id": "b33d-hh-453",
+    "family_head_name": "Nestor E. Villanueva",
+    "address_purok": 4,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-453"
+  },
+  {
+    "household_id": "b33d-hh-454",
+    "family_head_name": "Marites R. Cabrera",
+    "address_purok": 6,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P6-454"
+  },
+  {
+    "household_id": "b33d-hh-455",
+    "family_head_name": "Lorna I. Magbanua",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-455"
+  },
+  {
+    "household_id": "b33d-hh-456",
+    "family_head_name": "Precious V. Sarmiento",
+    "address_purok": 2,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-456"
+  },
+  {
+    "household_id": "b33d-hh-457",
+    "family_head_name": "Joel M. Macaraeg",
+    "address_purok": 6,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-457"
+  },
+  {
+    "household_id": "b33d-hh-458",
+    "family_head_name": "Reynaldo P. Alvarez",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-458"
+  },
+  {
+    "household_id": "b33d-hh-459",
+    "family_head_name": "Ana R. Fernandez",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-459"
+  },
+  {
+    "household_id": "b33d-hh-460",
+    "family_head_name": "Maricel P. Mercado",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-460"
+  },
+  {
+    "household_id": "b33d-hh-461",
+    "family_head_name": "Teodoro O. Lumapas",
+    "address_purok": 6,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-461"
+  },
+  {
+    "household_id": "b33d-hh-462",
+    "family_head_name": "Rogelio N. Tolentino",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-462"
+  },
+  {
+    "household_id": "b33d-hh-463",
+    "family_head_name": "Alfredo P. Mercado",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-463"
+  },
+  {
+    "household_id": "b33d-hh-464",
+    "family_head_name": "Efren R. Torres",
+    "address_purok": 1,
+    "dependent_count": 9,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-464"
+  },
+  {
+    "household_id": "b33d-hh-465",
+    "family_head_name": "Jose B. Salazar",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-465"
+  },
+  {
+    "household_id": "b33d-hh-466",
+    "family_head_name": "Maricel N. Lopez",
+    "address_purok": 4,
+    "dependent_count": 1,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-466"
+  },
+  {
+    "household_id": "b33d-hh-467",
+    "family_head_name": "Nestor H. Ocampo",
+    "address_purok": 6,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-467"
+  },
+  {
+    "household_id": "b33d-hh-468",
+    "family_head_name": "Cristina J. Bautista",
+    "address_purok": 3,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-468"
+  },
+  {
+    "household_id": "b33d-hh-469",
+    "family_head_name": "Mark Anthony R. Aquino",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-469"
+  },
+  {
+    "household_id": "b33d-hh-470",
+    "family_head_name": "Jerome L. Torres",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-470"
+  },
+  {
+    "household_id": "b33d-hh-471",
+    "family_head_name": "Mary Grace M. Bacus",
+    "address_purok": 6,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-471"
+  },
+  {
+    "household_id": "b33d-hh-472",
+    "family_head_name": "Arnel L. Santos",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-472"
+  },
+  {
+    "household_id": "b33d-hh-473",
+    "family_head_name": "Josefina G. Lopez",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-473"
+  },
+  {
+    "household_id": "b33d-hh-474",
+    "family_head_name": "Jocelyn J. Lacson",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-474"
+  },
+  {
+    "household_id": "b33d-hh-475",
+    "family_head_name": "Jonathan N. Fernandez",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-475"
+  },
+  {
+    "household_id": "b33d-hh-476",
+    "family_head_name": "Efren B. Sarmiento",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-476"
+  },
+  {
+    "household_id": "b33d-hh-477",
+    "family_head_name": "John Paul J. Gonzales",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": true
+    },
+    "qr_token": "TOKEN-B33D-P4-477"
+  },
+  {
+    "household_id": "b33d-hh-478",
+    "family_head_name": "Mark Anthony V. Abellana",
+    "address_purok": 5,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-478"
+  },
+  {
+    "household_id": "b33d-hh-479",
+    "family_head_name": "Precious P. Fernandez",
+    "address_purok": 4,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-479"
+  },
+  {
+    "household_id": "b33d-hh-480",
+    "family_head_name": "Juan D. Abellana",
+    "address_purok": 3,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-480"
+  },
+  {
+    "household_id": "b33d-hh-481",
+    "family_head_name": "Antonio C. Cagas",
+    "address_purok": 5,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-481"
+  },
+  {
+    "household_id": "b33d-hh-482",
+    "family_head_name": "Reynaldo H. Manalo",
+    "address_purok": 6,
+    "dependent_count": 0,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-482"
+  },
+  {
+    "household_id": "b33d-hh-483",
+    "family_head_name": "Efren V. Fernandez",
+    "address_purok": 1,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-483"
+  },
+  {
+    "household_id": "b33d-hh-484",
+    "family_head_name": "John Paul F. Torres",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-484"
+  },
+  {
+    "household_id": "b33d-hh-485",
+    "family_head_name": "Ramon C. Pascual",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-485"
+  },
+  {
+    "household_id": "b33d-hh-486",
+    "family_head_name": "Joel L. Aquino",
+    "address_purok": 5,
+    "dependent_count": 8,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-486"
+  },
+  {
+    "household_id": "b33d-hh-487",
+    "family_head_name": "Josefina H. Mercado",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-487"
+  },
+  {
+    "household_id": "b33d-hh-488",
+    "family_head_name": "Alfredo N. Lopez",
+    "address_purok": 3,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-488"
+  },
+  {
+    "household_id": "b33d-hh-489",
+    "family_head_name": "Mary Grace D. Aquino",
+    "address_purok": 2,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-489"
+  },
+  {
+    "household_id": "b33d-hh-490",
+    "family_head_name": "Romeo C. Cañete",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-490"
+  },
+  {
+    "household_id": "b33d-hh-491",
+    "family_head_name": "Ana H. Santos",
+    "address_purok": 1,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-491"
+  },
+  {
+    "household_id": "b33d-hh-492",
+    "family_head_name": "Jonathan G. Dela Cruz",
+    "address_purok": 3,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P3-492"
+  },
+  {
+    "household_id": "b33d-hh-493",
+    "family_head_name": "Angelica V. Torres",
+    "address_purok": 1,
+    "dependent_count": 4,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-493"
+  },
+  {
+    "household_id": "b33d-hh-494",
+    "family_head_name": "Jonathan N. Cabrera",
+    "address_purok": 1,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-494"
+  },
+  {
+    "household_id": "b33d-hh-495",
+    "family_head_name": "Mark Anthony E. Macaraeg",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-495"
+  },
+  {
+    "household_id": "b33d-hh-496",
+    "family_head_name": "Mark Anthony V. Castillo",
+    "address_purok": 2,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P2-496"
+  },
+  {
+    "household_id": "b33d-hh-497",
+    "family_head_name": "Mark Anthony S. Navarro",
+    "address_purok": 1,
+    "dependent_count": 2,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P1-497"
+  },
+  {
+    "household_id": "b33d-hh-498",
+    "family_head_name": "Reynaldo L. Saavedra",
+    "address_purok": 4,
+    "dependent_count": 3,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P4-498"
+  },
+  {
+    "household_id": "b33d-hh-499",
+    "family_head_name": "Ricardo R. Castillo",
+    "address_purok": 5,
+    "dependent_count": 5,
+    "vulnerability_flags": {
+      "is_pwd": false,
+      "is_senior": true,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P5-499"
+  },
+  {
+    "household_id": "b33d-hh-500",
+    "family_head_name": "Antonio F. Lopez",
+    "address_purok": 6,
+    "dependent_count": 6,
+    "vulnerability_flags": {
+      "is_pwd": true,
+      "is_senior": false,
+      "is_pregnant": false
+    },
+    "qr_token": "TOKEN-B33D-P6-500"
+  }
+]

@@ -1,39 +1,61 @@
 import 'package:flutter/material.dart';
-import 'screens/home_scan_screen.dart';
 
-const kOrange = Color(0xFFE94B0C);
-const kOrangeDark = Color(0xFFD83E05);
-const kInk = Color(0xFF171717);
-const kCanvas = Color(0xFFFFF9F7);
+import 'layouts/responsive_layout.dart';
+import 'services/app_controller.dart';
+import 'theme/app_theme.dart';
 
-void main() => runApp(const LigtasLinkApp());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  final controller = AppController();
+  runApp(LigtasLinkApp(controller: controller));
+  controller.init();
+}
 
 class LigtasLinkApp extends StatelessWidget {
-  const LigtasLinkApp({super.key});
+  const LigtasLinkApp({super.key, required this.controller});
+  final AppController controller;
 
   @override
-  Widget build(BuildContext context) => MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'LigtasLink',
-        theme: ThemeData(
-          useMaterial3: true,
-          scaffoldBackgroundColor: kCanvas,
-          colorScheme: ColorScheme.fromSeed(seedColor: kOrange),
-          fontFamily: 'Arial',
-          appBarTheme: const AppBarTheme(
-            backgroundColor: kOrange,
-            foregroundColor: Colors.white,
-            elevation: 0,
-          ),
-          cardTheme: CardThemeData(
-            color: Colors.white,
-            elevation: 0,
-            margin: EdgeInsets.zero,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(18)),
-            ),
-          ),
+  Widget build(BuildContext context) => AppScope(
+        controller: controller,
+        child: MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'LigtasLink',
+          theme: AppTheme.light(),
+          home: const _Bootstrap(),
         ),
-        home: const HomeScanScreen(),
       );
+}
+
+class _Bootstrap extends StatelessWidget {
+  const _Bootstrap();
+
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    if (app.ready) return const ResponsiveLayout();
+    return Scaffold(
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(mainAxisSize: MainAxisSize.min, children: [
+            const Icon(Icons.health_and_safety, size: 72, color: AppColors.brand),
+            const SizedBox(height: 16),
+            const Text('LigtasLink', style: TextStyle(fontSize: 28, fontWeight: FontWeight.w800)),
+            const SizedBox(height: 24),
+            if (app.initError == null) ...[
+              const CircularProgressIndicator(color: AppColors.brand),
+              const SizedBox(height: 12),
+              const Text('Preparing offline ledger…', style: TextStyle(color: AppColors.textSecondary)),
+            ] else ...[
+              const Icon(Icons.error_outline, color: AppColors.error, size: 32),
+              const SizedBox(height: 8),
+              Text('Could not open the local database:\n${app.initError}',
+                  textAlign: TextAlign.center, style: const TextStyle(color: AppColors.error)),
+            ],
+          ]),
+        ),
+      ),
+    );
+  }
 }

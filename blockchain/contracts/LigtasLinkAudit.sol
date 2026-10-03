@@ -2,26 +2,41 @@
 pragma solidity ^0.8.19;
 
 contract LigtasLinkAudit {
-    enum Status { VERIFIED, REJECTED_TAMPERED }
-    struct Batch { bytes32 root; string workerId; uint256 batchSize; uint256 timestamp; }
-    mapping(bytes32 => Batch) public batches;
-    event BatchAnchored(bytes32 indexed batchId, bytes32 indexed root, string workerId, uint256 batchSize);
-    event TamperRejected(bytes32 indexed batchId, bytes32 claimedRoot, bytes32 recomputedRoot, string workerId);
+    struct AnchorRecord {
+        bytes32 merkleRoot;
+        string workerId;
+        uint256 timestamp;
+        uint256 batchSize;
+        bool exists;
+    }
+
+    mapping(bytes32 => AnchorRecord) public anchors;
+
+    event BatchAnchored(bytes32 indexed merkleRoot, string workerId, uint256 batchSize, uint256 timestamp);
+    event TamperRejected(bytes32 indexed computedRoot, bytes32 indexed claimedRoot, string reason);
 
     function anchorBatchState(
         bytes32 claimedRoot,
         bytes32 recomputedRoot,
-        string calldata workerId,
+        string memory workerId,
         uint256 batchSize
-    ) external returns (Status status) {
-        bytes32 batchId = keccak256(abi.encode(claimedRoot, workerId, block.number));
+    ) external returns (bool) {
         if (claimedRoot != recomputedRoot) {
-            emit TamperRejected(batchId, claimedRoot, recomputedRoot, workerId);
-            return Status.REJECTED_TAMPERED;
+            emit TamperRejected(recomputedRoot, claimedRoot, "Tamper Detected: Root mismatch.");
+            return false;
         }
-        require(batchSize > 0, "empty batch");
-        batches[batchId] = Batch(claimedRoot, workerId, batchSize, block.timestamp);
-        emit BatchAnchored(batchId, claimedRoot, workerId, batchSize);
-        return Status.VERIFIED;
+
+        require(!anchors[claimedRoot].exists, "Error: Root already anchored.");
+
+        anchors[claimedRoot] = AnchorRecord({
+            merkleRoot: claimedRoot,
+            workerId: workerId,
+            timestamp: block.timestamp,
+            batchSize: batchSize,
+            exists: true
+        });
+
+        emit BatchAnchored(claimedRoot, workerId, batchSize, block.timestamp);
+        return true;
     }
 }

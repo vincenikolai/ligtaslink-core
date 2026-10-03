@@ -1,137 +1,130 @@
 import 'package:flutter/material.dart';
-import '../main.dart';
+
+import '../models/sync_event.dart';
+import '../services/app_controller.dart';
+import '../theme/app_theme.dart';
+import '../widgets/common.dart';
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
 
   @override
-  Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(
-          title: const Text('Relief operations dashboard',
-              style: TextStyle(fontWeight: FontWeight.w800)),
-          actions: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-              child: Chip(
-                  avatar: const Icon(Icons.verified, size: 17),
-                  label: const Text('Blockchain audited'),
-                  backgroundColor: Colors.white),
-            )
-          ],
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    final stats = app.purokStats();
+    final served = app.servedRecently.length;
+    final anchoredBatches = app.events.where((e) => e.kind == SyncEventKind.anchored).length;
+    final tamperBatches = app.events.where((e) => e.kind == SyncEventKind.tamperRejected).length;
+    final median = app.medianLatencyMs;
+    final metrics = [
+      MetricTile(label: 'Registered households', value: '${app.residents.length}', icon: Icons.groups),
+      MetricTile(label: 'Residents covered', value: '${app.totalPersons}', icon: Icons.family_restroom),
+      MetricTile(
+        label: 'Households served (${AppController.claimCooldown.inHours}h)',
+        value: '$served',
+        icon: Icons.local_shipping,
+        caption: app.residents.isEmpty ? null : '${(served * 100 / app.residents.length).toStringAsFixed(1)}% coverage',
+      ),
+      MetricTile(label: 'Relief packs released', value: '${app.counts['items'] ?? 0}', icon: Icons.inventory_2),
+      MetricTile(label: 'Vulnerable households', value: '${app.vulnerableHouseholds}', icon: Icons.accessible),
+      MetricTile(
+        label: 'Offline pending',
+        value: '${app.pendingCount}',
+        icon: app.online ? Icons.wifi : Icons.wifi_off,
+        color: app.online ? AppColors.success : const Color(0xFFB45309),
+      ),
+      MetricTile(label: 'Batches anchored', value: '$anchoredBatches', icon: Icons.verified, color: AppColors.success),
+      MetricTile(
+        label: 'Tamper rejections',
+        value: '$tamperBatches',
+        icon: Icons.gpp_bad,
+        color: tamperBatches > 0 ? AppColors.error : AppColors.textSecondary,
+        caption: '${app.counts['quarantined'] ?? 0} record(s) quarantined',
+      ),
+      MetricTile(
+        label: 'Median scan latency (session)',
+        value: median == null ? '—' : '${median.toStringAsFixed(1)} ms',
+        icon: Icons.timer,
+        color: median == null || median < 100 ? AppColors.success : AppColors.error,
+        caption: '${app.sessionLatencies.length} scan(s) • budget 100 ms',
+      ),
+    ];
+    return SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 96),
+      child: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 1280),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+            const Text('Relief Operations Dashboard', style: TextStyle(fontSize: 24, fontWeight: FontWeight.w800)),
+            const Text('Barangay 33-D, Davao City • live from the offline SQLite ledger',
+                style: TextStyle(color: AppColors.textSecondary)),
+            const SizedBox(height: 20),
+            LayoutBuilder(builder: (context, c) {
+              final columns = c.maxWidth > 1000 ? 3 : (c.maxWidth > 560 ? 2 : 1);
+              final width = (c.maxWidth - (columns - 1) * 16) / columns;
+              return Wrap(spacing: 16, runSpacing: 16, children: [for (final m in metrics) SizedBox(width: width, child: m)]);
+            }),
+            const SizedBox(height: 24),
+            SurfaceCard(
+              child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                const SectionTitle('Purok Distribution Status'),
+                for (final s in stats) _PurokRow(stats: s),
+              ]),
+            ),
+          ]),
         ),
-        body: LayoutBuilder(
-            builder: (context, constraints) => SingleChildScrollView(
-                  padding: EdgeInsets.all(constraints.maxWidth > 700 ? 36 : 18),
-                  child: ConstrainedBox(
-                    constraints: const BoxConstraints(maxWidth: 1180),
-                    child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const Text('Community overview',
-                              style: TextStyle(
-                                  fontSize: 26, fontWeight: FontWeight.w800)),
-                          const SizedBox(height: 20),
-                          Wrap(spacing: 16, runSpacing: 16, children: const [
-                            _Metric(
-                                title: 'Families registered',
-                                value: '500',
-                                icon: Icons.groups_outlined),
-                            _Metric(
-                                title: 'Relief packs served',
-                                value: '326',
-                                icon: Icons.inventory_2_outlined),
-                            _Metric(
-                                title: 'Vulnerable residents',
-                                value: '115',
-                                icon: Icons.accessibility_new),
-                            _Metric(
-                                title: 'Pending sync',
-                                value: '12',
-                                icon: Icons.cloud_off),
-                          ]),
-                          const SizedBox(height: 30),
-                          const Text('Purok distribution status',
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.w800)),
-                          const SizedBox(height: 12),
-                          Card(
-                              child: Column(
-                                  children: List.generate(
-                                      6,
-                                      (index) => _PurokRow(
-                                          purok: index + 1,
-                                          served: 42 + index * 7,
-                                          total: 75 + index * 4)))),
-                        ]),
-                  ),
-                )),
-      );
-}
-
-class _Metric extends StatelessWidget {
-  final String title;
-  final String value;
-  final IconData icon;
-  const _Metric({required this.title, required this.value, required this.icon});
-  @override
-  Widget build(BuildContext context) => SizedBox(
-        width: 220,
-        child: Card(
-            child: Padding(
-                padding: const EdgeInsets.all(18),
-                child: Row(children: [
-                  CircleAvatar(
-                      backgroundColor: const Color(0xFFFFE1D4),
-                      child: Icon(icon, color: kOrange)),
-                  const SizedBox(width: 12),
-                  Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(value,
-                            style: const TextStyle(
-                                fontSize: 25, fontWeight: FontWeight.w800)),
-                        Text(title,
-                            style: const TextStyle(
-                                color: Colors.black54, fontSize: 12))
-                      ])
-                ]))),
-      );
+      ),
+    );
+  }
 }
 
 class _PurokRow extends StatelessWidget {
-  final int purok;
-  final int served;
-  final int total;
-  const _PurokRow(
-      {required this.purok, required this.served, required this.total});
+  const _PurokRow({required this.stats});
+  final PurokStats stats;
+
   @override
-  Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
-        child: Row(children: [
-          CircleAvatar(
-              radius: 20,
-              backgroundColor: const Color(0xFFFFE1D4),
-              child: Text('$purok',
-                  style: const TextStyle(
-                      color: kOrange, fontWeight: FontWeight.bold))),
-          const SizedBox(width: 14),
-          Expanded(
-              child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                Text('Purok $purok',
-                    style: const TextStyle(fontWeight: FontWeight.bold)),
-                const SizedBox(height: 7),
-                LinearProgressIndicator(
-                    value: served / total,
-                    color: kOrange,
-                    backgroundColor: const Color(0xFFFFE5DC))
-              ])),
-          const SizedBox(width: 18),
-          Text('$served / $total served',
-              style: const TextStyle(fontWeight: FontWeight.w600)),
-          const SizedBox(width: 12),
-          const Icon(Icons.verified, color: Colors.green, size: 20)
-        ]),
-      );
+  Widget build(BuildContext context) {
+    final ratio = stats.households == 0 ? 0.0 : stats.served / stats.households;
+    final complete = stats.households > 0 && stats.served == stats.households;
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 10),
+      child: Row(children: [
+        CircleAvatar(
+          radius: 20,
+          backgroundColor: AppColors.brandTint,
+          child: Text('${stats.purok}', style: const TextStyle(color: AppColors.brand, fontWeight: FontWeight.w800)),
+        ),
+        const SizedBox(width: 14),
+        Expanded(
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Row(children: [
+              Text('Purok ${stats.purok}', style: const TextStyle(fontWeight: FontWeight.w700)),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text('${stats.served} / ${stats.households} households',
+                    textAlign: TextAlign.right,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(fontSize: 12, color: AppColors.textSecondary)),
+              ),
+            ]),
+            const SizedBox(height: 6),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(4),
+              child: LinearProgressIndicator(
+                value: ratio,
+                minHeight: 8,
+                color: complete ? AppColors.success : AppColors.brand,
+                backgroundColor: AppColors.brandTint,
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text('${stats.persons} residents • ${stats.vulnerable} vulnerable household(s)',
+                overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.textSecondary)),
+          ]),
+        ),
+        const SizedBox(width: 12),
+        Icon(complete ? Icons.check_circle : Icons.timelapse, color: complete ? AppColors.success : AppColors.textSecondary),
+      ]),
+    );
+  }
 }

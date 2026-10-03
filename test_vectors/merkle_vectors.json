@@ -1,0 +1,623 @@
+{
+  "description": "Cross-implementation Merkle vectors (Node, Python, Dart must agree).",
+  "leafExample": {
+    "transaction": {
+      "transaction_id": "tx-0000",
+      "household_id": "b33d-hh-001",
+      "items_received": 1,
+      "timestamp": "2026-10-03T08:00:00.000Z",
+      "worker_id": "W-01"
+    },
+    "canonical": "tx-0000b33d-hh-00112026-10-03T08:00:00.000ZW-01",
+    "leafHash": "0xa9df0a25b1025062344d402e1c837ab0f5ae313b8cfc1a6291b84398a6d52905"
+  },
+  "cases": [
+    {
+      "size": 1,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0xa9df0a25b1025062344d402e1c837ab0f5ae313b8cfc1a6291b84398a6d52905"
+    },
+    {
+      "size": 2,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0x6c08908cbb31fb480a939508cdb77efd58a2ed4517cce90b82a909218ba1eeaf"
+    },
+    {
+      "size": 3,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0002",
+          "household_id": "b33d-hh-003",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:02:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0xe65b77ca934f79b0d56298301ae84541a4710b791546e2b337a0f5367c16f785"
+    },
+    {
+      "size": 4,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0002",
+          "household_id": "b33d-hh-003",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:02:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0003",
+          "household_id": "b33d-hh-004",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:03:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0x29d40f5b70434e007de94d83ebe2f27a130a1e8f7f075596e7775be599f2a453"
+    },
+    {
+      "size": 5,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0002",
+          "household_id": "b33d-hh-003",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:02:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0003",
+          "household_id": "b33d-hh-004",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:03:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0004",
+          "household_id": "b33d-hh-005",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:04:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0x01e2d912b2a1f2bb328bbcd245d7fabce4850de04e5e767e0969138fcb40918d"
+    },
+    {
+      "size": 7,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0002",
+          "household_id": "b33d-hh-003",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:02:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0003",
+          "household_id": "b33d-hh-004",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:03:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0004",
+          "household_id": "b33d-hh-005",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:04:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0005",
+          "household_id": "b33d-hh-006",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:05:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0006",
+          "household_id": "b33d-hh-007",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:06:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0xae99985fae94f9139157e1bb96137bf35923a3f32ddc8f283a1ff53818ddab63"
+    },
+    {
+      "size": 8,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0002",
+          "household_id": "b33d-hh-003",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:02:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0003",
+          "household_id": "b33d-hh-004",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:03:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0004",
+          "household_id": "b33d-hh-005",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:04:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0005",
+          "household_id": "b33d-hh-006",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:05:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0006",
+          "household_id": "b33d-hh-007",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:06:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0007",
+          "household_id": "b33d-hh-008",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:07:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0xaf7f4994fbab67b4c253458a6d327ec1ecb0f245f6e7add6235a58f9ba412e60"
+    },
+    {
+      "size": 16,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0002",
+          "household_id": "b33d-hh-003",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:02:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0003",
+          "household_id": "b33d-hh-004",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:03:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0004",
+          "household_id": "b33d-hh-005",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:04:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0005",
+          "household_id": "b33d-hh-006",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:05:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0006",
+          "household_id": "b33d-hh-007",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:06:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0007",
+          "household_id": "b33d-hh-008",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:07:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0008",
+          "household_id": "b33d-hh-009",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:08:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0009",
+          "household_id": "b33d-hh-010",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:09:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0010",
+          "household_id": "b33d-hh-011",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:10:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0011",
+          "household_id": "b33d-hh-012",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:11:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0012",
+          "household_id": "b33d-hh-013",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:12:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0013",
+          "household_id": "b33d-hh-014",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:13:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0014",
+          "household_id": "b33d-hh-015",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:14:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0015",
+          "household_id": "b33d-hh-016",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:15:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0x30cd2b2b56a3e850b21dd3e2d270a8a520d4c6d1d436f0d9d4fa9b3680e18eda"
+    },
+    {
+      "size": 33,
+      "transactions": [
+        {
+          "transaction_id": "tx-0000",
+          "household_id": "b33d-hh-001",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:00:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0001",
+          "household_id": "b33d-hh-002",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:01:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0002",
+          "household_id": "b33d-hh-003",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:02:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0003",
+          "household_id": "b33d-hh-004",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:03:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0004",
+          "household_id": "b33d-hh-005",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:04:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0005",
+          "household_id": "b33d-hh-006",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:05:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0006",
+          "household_id": "b33d-hh-007",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:06:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0007",
+          "household_id": "b33d-hh-008",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:07:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0008",
+          "household_id": "b33d-hh-009",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:08:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0009",
+          "household_id": "b33d-hh-010",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:09:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0010",
+          "household_id": "b33d-hh-011",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:10:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0011",
+          "household_id": "b33d-hh-012",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:11:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0012",
+          "household_id": "b33d-hh-013",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:12:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0013",
+          "household_id": "b33d-hh-014",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:13:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0014",
+          "household_id": "b33d-hh-015",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:14:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0015",
+          "household_id": "b33d-hh-016",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:15:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0016",
+          "household_id": "b33d-hh-017",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:16:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0017",
+          "household_id": "b33d-hh-018",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:17:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0018",
+          "household_id": "b33d-hh-019",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:18:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0019",
+          "household_id": "b33d-hh-020",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:19:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0020",
+          "household_id": "b33d-hh-021",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:20:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0021",
+          "household_id": "b33d-hh-022",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:21:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0022",
+          "household_id": "b33d-hh-023",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:22:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0023",
+          "household_id": "b33d-hh-024",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:23:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0024",
+          "household_id": "b33d-hh-025",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:24:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0025",
+          "household_id": "b33d-hh-026",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:25:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0026",
+          "household_id": "b33d-hh-027",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:26:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0027",
+          "household_id": "b33d-hh-028",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:27:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0028",
+          "household_id": "b33d-hh-029",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:28:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0029",
+          "household_id": "b33d-hh-030",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:29:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0030",
+          "household_id": "b33d-hh-031",
+          "items_received": 1,
+          "timestamp": "2026-10-03T08:30:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0031",
+          "household_id": "b33d-hh-032",
+          "items_received": 2,
+          "timestamp": "2026-10-03T08:31:00.000Z",
+          "worker_id": "W-01"
+        },
+        {
+          "transaction_id": "tx-0032",
+          "household_id": "b33d-hh-033",
+          "items_received": 3,
+          "timestamp": "2026-10-03T08:32:00.000Z",
+          "worker_id": "W-01"
+        }
+      ],
+      "expectedRoot": "0xd267bd78317be08c411b0103dc65accf1714f32139a7ea1db0860f63c36f40a6"
+    }
+  ]
+}

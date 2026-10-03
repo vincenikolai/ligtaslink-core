@@ -1,55 +1,100 @@
 import 'dart:convert';
-import 'package:crypto/crypto.dart';
 import 'dart:typed_data';
+
+import 'package:crypto/crypto.dart';
 import 'package:cryptography/cryptography.dart';
 
-class MerkleEngine {
-  static String hashTransaction(Map<String, dynamic> transaction) =>
-      sha256.convert(utf8.encode(jsonEncode(transaction))).toString();
+import '../models/distribution_log.dart';
 
-  static List<List<String>> buildMerkleTree(
-    List<Map<String, dynamic>> transactions,
-  ) {
-    if (transactions.isEmpty) return <List<String>>[<String>[]];
-    final levels = <List<String>>[
-      transactions.map(hashTransaction).toList(growable: false),
-    ];
-    while (levels.last.length > 1) {
-      final current = levels.last;
-      final next = <String>[];
-      for (var i = 0; i < current.length; i += 2) {
-        final right = i + 1 < current.length ? current[i + 1] : current[i];
-        next.add(sha256.convert(utf8.encode(current[i] + right)).toString());
-      }
-      levels.add(next);
+/// On-device SHA-256 Merkle engine. Must stay byte-for-byte identical to
+/// backend_daemon/merkle.js and simulation/run_wilcoxon_test.py:
+///   S      = transaction_id + household_id + items_received + timestamp + worker_id
+///   leaf   = SHA-256(UTF-8(S))
+///   parent = SHA-256(left || right)   (raw 32-byte digests; odd layer duplicates last)
+class MerkleEngine {
+  MerkleEngine._();
+
+  static String canonicalString(DistributionLog log) =>
+      '${log.transactionId}${log.householdId}${log.itemsReceived}${log.timestamp}${log.workerId}';
+
+  static Uint8List leafHash(DistributionLog log) =>
+      Uint8List.fromList(sha256.convert(utf8.encode(canonicalString(log))).bytes);
+
+  /// Every layer of the tree, leaves first and the root layer last.
+  static List<List<Uint8List>> buildLayers(List<Uint8List> leaves) {
+    if (leaves.isEmpty) {
+      throw ArgumentError.value(leaves, 'leaves', 'cannot build a Merkle tree from an empty batch');
     }
-    return levels;
+    final layers = <List<Uint8List>>[leaves];
+    while (layers.last.length > 1) {
+      final current = layers.last;
+      final next = <Uint8List>[];
+      for (var i = 0; i < current.length; i += 2) {
+        final left = current[i];
+        final right = i + 1 < current.length ? current[i + 1] : current[i];
+        final joined = Uint8List(left.length + right.length)
+          ..setAll(0, left)
+          ..setAll(left.length, right);
+        next.add(Uint8List.fromList(sha256.convert(joined).bytes));
+      }
+      layers.add(next);
+    }
+    return layers;
   }
 
-  static String generateMerkleRoot(List<Map<String, dynamic>> transactions) =>
-      buildMerkleTree(transactions).last.firstOrNull ??
-      sha256.convert(utf8.encode('')).toString();
+  static Uint8List rootFromLeaves(List<Uint8List> leaves) => buildLayers(leaves).last.first;
 
-  static Future<String> signRootEd25519(
-    String root,
-    List<int> privateKey,
-  ) async {
-    if (privateKey.length != 32) {
-      throw ArgumentError.value(
-        privateKey.length,
-        'privateKey',
-        'must be a 32-byte Ed25519 seed',
-      );
+  static Uint8List merkleRoot(List<DistributionLog> logs) => rootFromLeaves(logs.map(leafHash).toList(growable: false));
+
+  static int treeHeight(int leafCount) {
+    if (leafCount <= 1) return 0;
+    var height = 0;
+    for (var n = leafCount; n > 1; n = (n + 1) ~/ 2) {
+      height++;
     }
-    final algorithm = Ed25519();
-    final keyPair =
-        await algorithm.newKeyPairFromSeed(Uint8List.fromList(privateKey));
-    final signature =
-        await algorithm.sign(utf8.encode(root), keyPair: keyPair);
-    return base64UrlEncode(signature.bytes);
+    return height;
   }
 }
 
-extension _FirstOrNull<T> on List<T> {
-  T? get firstOrNull => isEmpty ? null : first;
+/// Ed25519 signing of R_offline with the worker's keypair.
+class RootSigner {
+  RootSigner._(this._keyPair, this.publicKey);
+
+  static final Ed25519 _algorithm = Ed25519();
+  final SimpleKeyPair _keyPair;
+  final Uint8List publicKey;
+
+  static Future<RootSigner> fromSeed(List<int> seed) async {
+    if (seed.length != 32) {
+      throw ArgumentError.value(seed.length, 'seed', 'must be a 32-byte Ed25519 seed');
+    }
+    final keyPair = await _algorithm.newKeyPairFromSeed(seed);
+    final publicKey = await keyPair.extractPublicKey();
+    return RootSigner._(keyPair, Uint8List.fromList(publicKey.bytes));
+  }
+
+  /// Signs the raw 32-byte Merkle root.
+  Future<Uint8List> sign(Uint8List root) async {
+    final signature = await _algorithm.sign(root, keyPair: _keyPair);
+    return Uint8List.fromList(signature.bytes);
+  }
+
+  static Future<bool> verify(Uint8List root, Uint8List signature, Uint8List publicKey) => _algorithm.verify(
+        root,
+        signature: Signature(signature, publicKey: SimplePublicKey(publicKey, type: KeyPairType.ed25519)),
+      );
+}
+
+String toHex0x(List<int> bytes) {
+  final buffer = StringBuffer('0x');
+  for (final b in bytes) {
+    buffer.write(b.toRadixString(16).padLeft(2, '0'));
+  }
+  return buffer.toString();
+}
+
+Uint8List fromHex0x(String hex) {
+  final clean = hex.startsWith('0x') ? hex.substring(2) : hex;
+  if (clean.length.isOdd) throw FormatException('Odd-length hex string', hex);
+  return Uint8List.fromList([for (var i = 0; i < clean.length; i += 2) int.parse(clean.substring(i, i + 2), radix: 16)]);
 }
