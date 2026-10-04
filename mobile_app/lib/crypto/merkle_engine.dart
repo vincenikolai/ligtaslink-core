@@ -3,6 +3,7 @@ import 'dart:typed_data';
 
 import 'package:crypto/crypto.dart';
 import 'package:cryptography/cryptography.dart';
+import 'package:flutter/foundation.dart' show compute;
 
 import '../models/distribution_log.dart';
 
@@ -44,6 +45,11 @@ class MerkleEngine {
 
   static Uint8List rootFromLeaves(List<Uint8List> leaves) => buildLayers(leaves).last.first;
 
+  /// Same result as [rootFromLeaves], computed on a background isolate so the
+  /// O(n) layer hashing never blocks a UI frame. On web, compute() falls back
+  /// to running inline because isolates are unavailable there.
+  static Future<Uint8List> rootFromLeavesAsync(List<Uint8List> leaves) => compute(_rootEntry, List<Uint8List>.of(leaves));
+
   static Uint8List merkleRoot(List<DistributionLog> logs) => rootFromLeaves(logs.map(leafHash).toList(growable: false));
 
   static int treeHeight(int leafCount) {
@@ -55,6 +61,9 @@ class MerkleEngine {
     return height;
   }
 }
+
+/// Top-level so compute() can spawn it on another isolate.
+Uint8List _rootEntry(List<Uint8List> leaves) => MerkleEngine.rootFromLeaves(leaves);
 
 /// Ed25519 signing of R_offline with the worker's keypair.
 class RootSigner {

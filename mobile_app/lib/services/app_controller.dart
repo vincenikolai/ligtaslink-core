@@ -171,7 +171,7 @@ class AppController extends ChangeNotifier {
           _pendingIds.add(log.transactionId);
           final insertMs = mark();
 
-          final root = MerkleEngine.rootFromLeaves(_pendingLeaves);
+          final root = await MerkleEngine.rootFromLeavesAsync(_pendingLeaves);
           final merkleMs = mark();
 
           final signature = await _signer!.sign(root);
@@ -259,10 +259,11 @@ class AppController extends ChangeNotifier {
     notifyListeners();
     final n = _pendingIds.length;
     final ids = List<String>.of(_pendingIds.take(n));
-    final root = MerkleEngine.rootFromLeaves(List<Uint8List>.of(_pendingLeaves.take(n)));
-    final rootHex = toHex0x(root);
     SyncEvent event;
+    var rootHex = '';
     try {
+      final root = await MerkleEngine.rootFromLeavesAsync(List<Uint8List>.of(_pendingLeaves.take(n)));
+      rootHex = toHex0x(root);
       await _ensureRegistered();
       final cp = checkpoint;
       final signatureHex = (cp != null && cp.merkleRoot == rootHex && cp.batchSize == n)

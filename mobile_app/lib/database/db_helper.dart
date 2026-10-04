@@ -30,7 +30,7 @@ class DbHelper {
   static final DbHelper instance = DbHelper._();
 
   static const _dbName = 'ligtaslink_local.db';
-  static const _dbVersion = 2;
+  static const _dbVersion = 3;
   static const leafPending = 0;
   static const leafSynced = 1;
   static const leafQuarantined = 2;
@@ -49,11 +49,17 @@ class DbHelper {
         onConfigure: (db) async => db.execute('PRAGMA foreign_keys = ON'),
         onCreate: (db, _) => _createSchema(db),
         onUpgrade: (db, oldVersion, _) async {
-          // Version 1 prototypes used an incompatible schema; rebuild from scratch.
-          for (final table in ['merkle_leaves', 'offline_checkpoint', 'sync_events', 'app_meta', 'distribution_logs', 'residents']) {
-            await db.execute('DROP TABLE IF EXISTS $table');
+          if (oldVersion < 2) {
+            // Version 1 prototypes used an incompatible schema; rebuild from scratch.
+            for (final table in ['merkle_leaves', 'offline_checkpoint', 'sync_events', 'app_meta', 'distribution_logs', 'residents']) {
+              await db.execute('DROP TABLE IF EXISTS $table');
+            }
+            await _createSchema(db);
+            return;
           }
-          await _createSchema(db);
+          // Version 2 -> 3: the token index was renamed; keep all local data.
+          await db.execute('DROP INDEX IF EXISTS idx_residents_qr_token');
+          await db.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_qr_token ON residents(qr_token)');
         },
       ),
     );
@@ -69,7 +75,8 @@ class DbHelper {
         vulnerability_flags TEXT NOT NULL,
         qr_token TEXT NOT NULL UNIQUE
       )''');
-    await db.execute('CREATE UNIQUE INDEX idx_residents_qr_token ON residents(qr_token)');
+    // B-Tree index backing the O(1)-in-practice (O(log n), n = 500) QR token lookup.
+    await db.execute('CREATE UNIQUE INDEX idx_qr_token ON residents(qr_token)');
     await db.execute('''
       CREATE TABLE distribution_logs (
         transaction_id TEXT PRIMARY KEY,

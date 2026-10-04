@@ -10,9 +10,12 @@ import 'dialogs.dart';
 /// runs the offline verification pipeline on the result.
 Future<void> startScan(BuildContext context) async {
   final app = AppScope.of(context);
-  final token = cameraScanSupported
-      ? await Navigator.of(context).push<String>(MaterialPageRoute(builder: (_) => const QrScanScreen()))
-      : await showManualTokenDialog(context, app);
+  final String? token;
+  if (cameraScanSupported) {
+    token = await Navigator.of(context).push<String>(MaterialPageRoute(builder: (_) => const QrScanScreen()));
+  } else {
+    token = await showManualTokenDialog(context, app);
+  }
   if (token == null || token.isEmpty || !context.mounted) return;
   await verifyAndNotify(context, token);
 }

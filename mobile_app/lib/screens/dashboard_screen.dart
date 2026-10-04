@@ -31,7 +31,7 @@ class DashboardScreen extends StatelessWidget {
         label: 'Offline pending',
         value: '${app.pendingCount}',
         icon: app.online ? Icons.wifi : Icons.wifi_off,
-        color: app.online ? AppColors.success : const Color(0xFFB45309),
+        color: app.online ? AppColors.success : AppColors.warning,
       ),
       MetricTile(label: 'Batches anchored', value: '$anchoredBatches', icon: Icons.verified, color: AppColors.success),
       MetricTile(

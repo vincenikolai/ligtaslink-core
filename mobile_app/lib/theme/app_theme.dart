@@ -12,6 +12,7 @@ class AppColors {
   static const textSecondary = Color(0xFF757575);
   static const success = Color(0xFF16A34A);
   static const error = Color(0xFFDC2626);
+  static const warning = Color(0xFFB45309);
   static const offline = Colors.amber;
   static const shadow = Color(0x1F000000);
 }

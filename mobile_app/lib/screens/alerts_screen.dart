@@ -20,7 +20,7 @@ class AlertsScreen extends StatelessWidget {
         if (!app.online)
           _Banner(
             icon: Icons.wifi_off,
-            color: const Color(0xFFB45309),
+            color: AppColors.warning,
             text: 'Offline: ${app.pendingCount} record(s) are signed and queued. They will sync automatically when '
                 'the Dual-Sync Daemon and Hardhat node are reachable.',
           ),

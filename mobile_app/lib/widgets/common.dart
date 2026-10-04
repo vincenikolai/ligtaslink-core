@@ -44,7 +44,7 @@ class StatusBadge extends StatelessWidget {
   Color get _color => switch (tone) {
         BadgeTone.success => AppColors.success,
         BadgeTone.error => AppColors.error,
-        BadgeTone.warning => const Color(0xFFB45309),
+        BadgeTone.warning => AppColors.warning,
         BadgeTone.neutral => AppColors.textSecondary,
         BadgeTone.brand => AppColors.brand,
       };
